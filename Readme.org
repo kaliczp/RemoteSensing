@@ -1,0 +1,4419 @@
+* <2024-02-12 h>
+Új óranendi időpont keresési kísérlet.
+
+Egy csoport.
+
+Azzal foglalkozunk, amikkel eddig nem foglalkoztunk. Első előadás sok ismétlés.
+
+Távérzékelés, angol remote sensingből minden nyelvbe.
+
+Táv és érzékelés távolról érintekzés nélkül.
+
+Olyan információgyűjtsi eljárás, ahol nem vagyunk közvetlen kapcsolatban a vizsgált objektummal.
+
+Szükséges valami, ami továbbítja az információt = információ hordozó.
+
+** Információ hordozó
+Ált erelktromágneses sugárzás, illetve adott hullámhosszú tartalma
+- hanghullám
+- mágneses
+- szeizmikus rezgés
+
+** Érzékszervek
+- Látás (látható tartománya az elektromágneses sugárzásnak)
+- Hallás fülünk érzékszerv
+- Hőérzet hőreceptorok a bőrön (termális tartomány)
+- Szaglás szaganyagok, amik az információt továbbítják
+
+** Képalkotás
+Fontos része a távérzékelésnek. Infót megadott irányokhoz kötjük.
+Képet alkotunk. Mint ilyen a látás képalkotó.
+
+Hallás esetében nem tudunk képet alkotni, de csak a hang irányát.
+Több állat, denevérek és tengeri emlősök képesek a hanghullámokkal képet alkotni.
+Fontos ág a sonar, vízalatti képalkotás.
+
+Hőérzet, gyenge képalkotó tulajdonság van. Durva felbontás sötétben kályha.
+
+Szaglás egyáltalán nem képalkotó.
+
+** Tágabb def
+Olyan információ-gyűjtsi eljárás, ahol nem vagyunk közvetlen kapcsolatban a vizsgált objektummal.
+
+Olyan információ-gyűjtsi eljárás, amely során a Földünkől, felszínéről az elektromágneses hullámok segítségével kapunk egységes adatrendszert.
+
+Nem csak adatgyűjtés, adat elemzés is.
+
+*** Adatgyűjtés
+- adóegység, sugárforrás,
+- vizsgált objektum,
+- hordozóeszköz (platform),
+- érzékelő (sensor).
+
+Sugárzás objetum, ami kapcsolatban, visszaverődik. Platform, olyan helyre viszi az érzékelőt,
+ahol a képalkotás jól meg tud történni. Platformot általában jól megemeljük. Alföldön minden egybe mosódna.
+Épülethomlokzat földi fotogammetria esetén. Olyan helyre jutassa az érzékeléőt, ahol a képalkotás megvalósul.
+
+*** Adatelemzés
+- Analóg és digitális képek. Korábban analóg túsúly ma már szinte csak digitális.
+- Vizuális kiérétkelés; analóg, analitikus és digitális fotogamm kiértékelő eszközök, képfeldolgozási eljárások.
+  Jelen vizuális kiértékelés interpretáció, vizuális képértelmezés, digitális képfeldolgozó eljárások.
+- Végterméke térképi termék. Térképet, tematikus térképet, jelentéseket, területkimutatást hozunk létre.
+  Eredménye térképi termék
+
+** Ábra
+Platform műhold, aktív és passzív távérzékelés.
+
+- Aktív :: Radarsat műhold. Műhold bocsátja ki a rádióhullámokat. Érzékelő szempontjából aktív.
+
+- Passzív távérzékelés :: Nem bocsát ki képalkotáshoz. Landsat műholdprogram a legfontosabb (legrégebbib).
+  Az elektromágneses sugárzás kétszer áthalad az atmoszférán. Jelentős a hatása a távérzékelésben. Jelentősen
+  befolyásolja a képanyag minőségét.
+
+** Műholdas példa
+Műholdon az érzékeléő, le kell juttatni a földre. Rádió kommunikáció segítségével. Passzív műholdon is van adó, ami a képeket sugározza.
+Vételi állomások veszik a felvételeket. Digitális felvételek, előfeldolgozás, különbőző térképeket állítunk elő. Adatfeldolgozást is tartalmazza.
+
+** Kapcsolódó és részterületek
+- Geodézia :: térképezéshez fontos az adott vonatkoztatási renszer. Vetületi rendszerben szolgáltatja a szolgáltató.
+  Előfeldolgozásánál komoly felsőgeodéziai. Jellemzően UTM vetületben szolgáltatják.
+- Fotogammetria :: része a távérzékelésnek.
+- Távérzékelés :: Része a rendszernek.
+- Geoinformatika :: Itt a fentiek adatgyűjtő eljárások. Akkor működik,
+  ha jók és aktuálisak az adatok. Lehet csak a fentiekre adatgyűjtési
+  módként tekinteni.
+
+A fentiek összefoglaló neve a /Geomatika/.
+
+** Foto
+Nagy történet 180 éves múlt
+
+- Mennyiségi információ szerzés
+  - Elhelyezés
+  - Méret
+  - alak
+- objektum és képe kozotti matematikai- geometriai kapcsoalt alajpján
+
+** Távérzékelés
+kb 50 éves műhold 1972-ben indult a műhold. Bárki (embargót kivéve) polgári is felhasználhatta.
+
+Elsősorban minőségi információ szerzés
+- objektum és annak állapot-változása.
+- visszaverési hullámhossz., inenzitás, mintázat alapján.
+
+** Foto vs. távérzékelés
+- Külön:
+  - klasszikus minőségi és mennyiségi
+  - tradíciók
+  - nálunk nagy az anyag. Most vizuális interpretáció. digitális képfeldolgozás.
+- Együtt (most nem érdekes)
+
+** Tévérzékelés csoportosítása
+- sugárforrás
+  - Passzív = Nap sokszor optikai távérzékelésnek nevezik. Olyan
+    tartomány, amelyeket optikai eszközökkel terelgetjük gyüjtjük,
+    szórjuk tükrözzük. Hőkamera esetén különleges optikai eszközök. DE
+    van passzív mikrohullámú rendszerek. Földfelszínről kibocsátott
+    hullámok. Vizek talajvíz, árvíz. Anyag dielktromos állandójától
+    függ a kibocsátás, a víztartalomtól függ.
+  - Aktív = érzékelőhöz saját jeladó.
+
+- vizsgált objektum
+  - termésetes és épített környezet. Sokan erőltetettnek
+    gondolják. Itt természetes környezet távérzékelése. Sok eljárás
+    építettnél jó, de természetesnél nem nagyon. Képegyeztetési
+    eljárások építettben tökéletes. Erdő és nádas esetén nem olyan jó.
+
+- Hordozó eszköz (platform)
+  - Műholdas - műhold
+  - Légi
+  - földi
+
+Most elsősorban műholdas. De akár légi is lehetne.
+
+- Érzékelők
+  - fotográfiai rensezerek kémműholdak (korona USA program, szovjet)
+    Nagy magasságra átalakított mérőkamera.
+  - Digitális érzékelők Jellemzően ezzel készülnek.
+
+** Alkalmazási területek
+Széleskörűek.
+
+- Atmoszféra az egész földet beborítja. Időjárás megfigyelése és előrejezlése az egyik első eljárás.
+Még a szaknév megjelenése előtt első meteorológiai műholdak. Nem publikus adatok voltak.
+- Tenger és óceán kutatás.
+- Geológiai és földtani térképezés fontos alkalmazás
+- Topográfiai térképezés
+- Vegetáció és ökoszisztémák vizsgálata
+- Települési környzet vizsgálata globalizáció, gyors fejlődés követése.
+- Mezőgazdasági előrejelző-reszerek. Mo-n fontos, jellemző terület. Termésbecslő renszerek.
+- Antropogén hatások vizsgáata (illegális bevatkozás, hulladéklearakók)
+- Katasztrófák előrejelzése és hatásvizsgálata. Sok katasztrófa esetén a helyi infrastruktúra megsemmisül. Műholdas platform független a katasztrófától.
+- Katonai alkalmazások. Nagyon fontosak egész foto és távérzékelés tekintetében jelentős ösztönző. Ellenséges objektumok térképezése.
+- Más égitestek kutatása, térképezése (Mars, Hold) bár definícióban Föld. Holdmérőket még ne alkalmaztak. Távoli égitestek távérzékelési eljárással.
+
+** Példák
+- Trópusi vihar afrika partjainál. Vihar szeme, haladás.
+- Óceánok szélsebesség és irány. QuickSCAT SeaWinds. Hol hogyan
+  hullámzik a víz. Szél irány és sebesség, hullámok. Van földi is (hajók észleléseit is gyűjtik.
+
+Minél nagyobb terület, hagékony.
+
+- geológiai. Emi, Koussi vulkán és Aorunga kráter Csád, ISS. Meteoroit kráter szinte csak űrből. Nasca vonalak. Lokálisan nem felismerhetők.
+- Vegetáció térképezés és felszínborítás. Globális felszínborítási
+  térképek. Zöld az erdő. Globális felszínborítás fontos, kiemelten a
+  tárgy területén. Felszíngorítás és földhasználat fontos.
+- Emberi beavatkozások Brazil erdőírtás. Kép pár 1000*1000 szó előtte-utána.
+- Urbanizáció Dubai. Gyors és jelentős változások. Infra kompozit. Vörös a vegetáció. Amíg van olaj fenntartható.
+- Katasztrófa Japán földrengés, szögőár, nukleáris baleset. Aster parallaxis. elöntések, törmelékek.
+- Idegen érgitest. Mars térképezés. Sok körben készült. MARS explorer, újabb mars explorer. Földhöz képest jelentős magassági tartomány!
+
+** GEOSS
+Amerikai program. Global Earth Observation System of Systems
+
+- Komplex renszer
+  - légkör
+  - vizek
+  - szárazföldek
+  - egészséges társadalom, ökoszisztéma
+- ESzközök
+  - mérés
+  - modell
+  - döntés
+  - program
+
+Sok minden, modell és döntéstámogatás is
+Komplex globális dolgok felismerése, mint klímaváltozás. Egész Föld egy renszer.
+Think globally and do locally.
+
+GEOSS az amerikaiaknál lecsengett. Ennek alapján
+GMES (Global Monitoring for Environment and Security).
+Átnevezve Coppernicussá (2008-ban).
+- Vizek
+- Szárazföldek
+- Légkör
+- Kockázatok
+- Klímaváltozás
+- Biztonság
+
+Amerikai és európai programok Galileo drága, és lassu hasonló. USA gondolta, hasonló.
+
+Ebben a programban teljesen új műhold család.
+Sentinel műholdak.
+2014-ben pályán. Adatokhoz nem csak EU állampolgár, bárki hozzáférhet. Jelentősen megváltoztatta. Új szereplő USA mellett.
+Napról napra nő az adatmennyiség és az adatok köre is!
+
+- Sentinel 1 radar
+- Sentinel 2 passzív optikai MSI 2015 első, 2017 második tag 7 év
+  élettartam. Első generáción túl vagyunk. Orosz válság miatt csúszik
+  a második generáció. Amcsi rakéták is orosz hajtóanyaggal. Elon Musk
+  komoly lépéseket, Máról holnapra nem megy pályára állítás. EU rakéta
+  is orosz hajtóanyagra utalva.
+
+Copernikus program nagyon jelentősen megváltoztatott mindent.
+
+** Természeti erőforrások vizsgálata
+Lansat erőforrás megfiegyelő volt elsődlegesen.
+- Felmérés
+- Természeti csapások hatásvizsgálata
+- Emberi hatások felmérése, rombolás, ipar, mg.
+- Monitoring és modellezés, bármikor
+  megismerhető. Objektív. Monitoring és modellezés kiváló
+  alapja. Eddig hogyan változuott és a jövőben?
+
+** Legrontosabb jellemzői
+Csornai Gábor 1991 könyve első tankönyv Fehérvár FÖMI
+- Gyors adatgyűjtés - naprakészség
+- jÓ térbeli és időbeli mintavétel. 100*100-as pixel jó mintavétel. Időbeli mintavételezés
+- Nagy területről homogén adatrenszer
+- Fajlagosan olcsó (90-es években landsat felvétel félmillió forint
+  Egy olcsóbb gépkocsi).  Most már igaz. Emberi munkaerő drága, terepi
+  adatgyűjtésre megszervezni. Iszonyú drága.  Ingyenes távérzékelési
+  felvételek ellenére sem ingyen, kell a feldolgozáshoz számítógép,
+  szoftver, szakértelem. Nem mindenható.
+
+** Objektum - információ hordozó kölcsönhatása
+- Tárgyspecifikus (víz, erdő, szántó..)
+- Állapotspecifikus
+  Víz vs. jég, Erdő lombos vs lombtalan, Szántó vetés előtt után, szántás, trágyázás, eső vizes aszfalt, talaj más-más!
+
+Állapotspecifiusság elsőre gond, 90-es években a legjobb felvétel. Ma több felvétellel. Ua. terület télen víz, nyáron jég,
+télen és nyáron is tűlevél. Segíti a munkánkat az állapotspecifikusság.
+
+Ez a távérzékelés alapja!!!!
+
+** Több fázisú mintavételezés
+Egy mérés nem mérés.
+- Multispektrális szenzor, több tartományban mér, biztosabb osztályozás
+- Multitemporális többi dőpont
+- Multianguláris - több felvételi szögből. A kölcsönhatás iránytól függ. Milyen irányból süt a nap.
+  Napraforgó tábla fény felől, vagy ellene másként néz ki! Vegetáció esetében igen jelentős.
+- Multiszenzorális - több különböző érzékelővel. Rég egy-két érzékelő
+  egy platformon. Ma már 10-15 érzékelő ua. Másik műholdon is
+  érzékelő. nagyobb megbízhatóság.
+
+TEREPI REFERENCIA! Nagyon fontosak! Félév végére színes tematikus
+térképek. Mennyire felel meg a valóságnak, referenciához
+viszonyítom. Képet és valóságot mindig tudjuk összekötni. A térkép ne
+műalkotás, hasznosítható tematikus térkép legyen.
+
+** reflektancia ábra
+Beeső sugárzás visszaverése reflektanica és hullámhossz az x tengelyen.
+
+- Tiszta víz reflektanciája alacsony néhány %. Víz sötét, de üledék, megváltoztatja.
+- Talaj reflektanciája a hullámhosszal lineárisan változik.
+- Vegetáció látható és közeli infravörös.
+
+Landsat, spot.
+
+Reflektancia a légkör elnyelési zónája, közötte légköri ablak, ahol lelátunk a felszínre.
+
+** Történeti áttekintés
+Még egy kis anyag
+
+- 1957 Szputnyik-1
+- 1960 TIROS-1 első meteorológiai műhold
+- CORONA kémműhold fejlesztések
+- 1972 ERTS-1 = Landsat 1
+- 1999 IKONOS vhr Very High resolution
+- 2005 Google Earth szolgáltatás
+
+CORONA szupertitkos volt, jelenleg megvásárolható. Repülő megpróbálta
+befogni a levegőben. 17. misszió volt az első sikeres. Mo-ról sok CORONA elérhető
+60-as években alternatívája a légifényképeknek. Ahol nem volt felvétel.
+
+Felbontás 1m-t is elérték.
+
+*** Landsat
+Lendsat 72-től első, Másodikból landsat 5, 72-től folyamatos.
+Általában kis műhold. Planet cég kiszórja. Gyorsan visszajön. Megsemmisül.
+
+Landsat nagy műhold. nem semmsül meg, szétrobban. Figyelni kell. Irányítható.
+Űrszemét befogás, foglalkozni kell.
+
+*** Ikonos
+1999-ben első nagy felbontás.
+Légifénykép szintű képek.
+
+*** Google Earth
+2005-től.
+Belenyagyítva VHR felvételek. Inspirálta a Google. Támogatta a google a felvételeket!
+
+*** Trendek
+- Felbontás növelése örök irány
+  - Geometria
+  - Spektrális
+  - időbeli
+  - radiometriai
+- Új technológiák
+  - Lézeres magasságmehatárosá
+  - Gravimetria (GOCE)
+- Adathozzáférés
+  - közelvalós és valós idejű. Sentinel pár órán belül van negyedórás szolgáltató is.
+
+Háború konfliktusnál is fontos!
+
+*** GOCE
+Első gravitációs műhold. Új globális geoid.
+
+*** Sentinel HUB playlground
+
+90-es évek elején FÖMI hozzáférés, milyen felvétel, kiválasztani, külügyi engedély, deviza átutalás, félév után itt volt a felvéte.
+
+* <2024-02-12 h> Gyakorlat Google Earth
+Gép bekapcs. C labor hallgató.
+
+Mit csinálunk?
+
+Google Earth mikor indult?
+2004-ben vette a google Keyhole. Az ő technológiájukat felhasználva 2005-ben indult a szolgáltatás.
+Korábban fizetős változat, ilyen-olyan. Pro verzió sokáig fizetős volt. Jelenleg nincs fizetős változat.
+
+** Két változat
+- asztali változat (korábban ez volt a pro).
+- böngészőben futtatható. https://earth.google.com/
+
+Az asztali változatban több funkció. Nem érhető el a másik változatban.
+
+** Használat
+Összes réteget alul kikapcsolva, a föld akkor is látszik.
+
+A +- gomb nagyíítás kicsinyítés, jobb oldal navigációs.
+Lenyomott középső elfordul.
+
+R = reset.
+
+Könnyű a navigálás.
+
+** Alapvetések
+Űrfelvétel mozaik. Szárazföldek esetetében. Az óceánok más tészta.
+MIlyen űrfelvétel, a copyright információ ad információt.
+
+Teljes nézet image landsat/copeernicus.
+
+Csendes ócán fenekén egyéb dolgok.
+
+Magyarország is csak landsat copernicus. dátum is.
+
+Különböző nagyítási szintek különböző űrfelvételek.
+2024 nem a kép dátuma. Az airbus és a google között szerződés él.
+
+Kép dátuma: Dátum hónap/nap/év 2022-06-04
+
+Airbus francia cég. Ez a copyright. 
+
+** Idővisszalépés
+Csak az asztalin. Egy skálán lehet nézni.
+VHR űrfelvételeket használ
+
+2022-11-27 erősen dőlő felvétel
+2018-03-12 is erősen dől.
+
+Landsat/Copernikus nadír helyzetbe tekint. VHR viszonylag kis területet tud felvenni.
+
+Jelenleg 1 felvétel pászta szélessége 16 km széles. 16 km 1m 16000 sorszenzor.
+
+** Agilis szenzor
+Agilis szenzorok, nem csak oldalra tekint, hanem minden irányba.
+Csak úgy tud nagy visszatérési időt adni. 30 fokos oldalra tekités 3 nap!
+Hardveertől függ, hogy mennyire, normálisan 30 foknál! VAn technikai korlát.
+
+Általában < 30 fok.
+
+Különböző színvilág. Téli felvétel kisebb dinamika. Google komoly tömorítést használ.
+
+2018-02-04 téli rossz, dinamikájú. A nyáriak jobbak. Alapértelmezett az általában nyári.
+
+** TV torony
+Nagyon dőő 2022-11-27
+
+VHR kvázipoláris napszinkron pályán keringenek É-ÉK-ről D-DNY felé. TV torony 82.46-ot néz.
+Fölülnézetben K felé tekint a műhold.
+
+off-nadír szög néz. target azimut.
+
+satelite azimut. a felvétel készítés helyéről a műhold milyen szögben látszik.
+
+82.46 +180 kiegészíti szög
+
+Off-nadír és satellite elevation a kettő öszege 90 fok.
+
+- target azimut, satellite azimut.
+- off-nadír sat elevation.
+
+Nem a teljes területet veszi fel.
+
+Copyright maxar technologies, airbus
+CNES francia űrkutatási hivatal. De az egyenlő airbussal.
+
+y meghajtó távérzékelés 2024
+Link
+
+Draw rectangle és kiadja, hogy mennyi
+
+World view
+WV02 -
+
+Target azimut. Konkrétan melyik felvételt.
+Nem akar belemenni 
+
+TV torony magassága. Lemérjük a dőlést.
+
+2022-11-27 Flst lemérni
+
+\Delta h = delta r * ctg(off-nadir)
+
+delta r = 108.21 m * ctg ( 28.4 fok)
+
+200.13
+
+Oldalra tekintés, magas vagy alacsony objektum.
+
+Magas objektum eldönteni, hogy melyik űrfelvétel.
+
+** Táblázat
+Maxar technolgies iconos, digital globe, wordl view.
+
+Maxar az egyik legnagyobb VHR űrfelvétel szolgáltató cég. Néha vannak szép felvételek.
+Sokszor aktuálpolitikai események. Maxar az egyik legnagyobb.
+
+** Vissza a http://discover.maxar.com
+
+20-25$/km^2 Borsos árú, de google earth alatt nézegethető. Kilopni nem lehet. Van aki
+erre programot írt, de csak a google earth alatt használható.
+
+2021-10-20 uszada mellett
+Becsillanó fénytető google simítja, és kiég.
+Fenyőkkel probléma.
+
+** Van-e kérdés? Szünet
+Mi számít lelopás. Kéo másolása lehet, de a screenshoot rajta a google earth.
+
+** Repülőgép szimulátor
+Ctr-alt-a telepített
+
+** Fertő
+2015 kotort csatornák. Vonalak a fertői munkába
+
+2013 káka szigeteg. Vannak szigetek, amiket elkotortak.
+
+Virágosmajori kikötő kialakulása.
+
+** Terület kiválasztása
+Tómalom környékének kiválasztása. Kis erdő, kis üdülősáv, kis erdő.
+
+Előre határozzuk meg, amit értelmezni szeretnénk. Interpretálni. Természetes vagy mesterséges határok,
+amik az űrfelvételen azonosíthatók
+
+Helyjelz, sokszög a felső ikon.
+Tómalmot jócskán körül rajzoltuk. Mentés után kijelölve szerkeszthető.
+Körüljárás számít.
+
+A területet kell vizuálisan értelmezni. Vizuális interpretáció.
+
+*** Vizuálisinterpretáció
+Szemünkkel értelmezzük és valamilyen tematikával értelmezzük.
+2011-08-17 maxar.
+
+Felszínborítás (Land Cover) fizikai megjelnés
+Földhasználat (Land use) jogi kategória
+
+Távérzékeléssel a felszínborítást.
+
+- szántó
+- legelő
+- kivett
+  - műutak
+  - beépített területek
+  - vízvelület
+- csemetekert
+- erdő
+
+Régi térképet is érdemes megnézni. G: meghajtón lehet. Mindig térképi munkákat elővenni.
+Bizonyos dolgok előkerülhetnek, amire nem gondolunk.
+
+Van egy jelentős paraméter MMU
+*** mmu
+MMU = Minimal Mapping Unit legkisebb értelmezendő foltméret.
+
+Mekkora amit még különálló kategóriaként értelmezünk: m^2, ha.
+*** minimum szélesség
+Vonalas létesítmény. Akkor számít, ha a legkisebb térképezendő foltot eléri.
+
+100 m^2 a minimum folgméret. Hosszú és vékony vonalas szélesség.
+Mi legyen az a szélesség, ahol külön terület.
+
+6 * 900 m. 10 m minimum szélesség, az utat még nem ábrázolom területként
+
+Nincsenek topológiai szerkesztési eljárások. A teljes terület hézag és átfedés
+mentesen kategorizálom. Vonalrajzolás és a területtel a határon végig menni.
+Poligon rajzolás. Mentés! Helyeknél saját helyek. Saját helyek a windows
+mélyen elásott terüoleten. Ideiglenes helyen. Ahová teszi.
+
+Terület jobb klikk
+
+*** KML fájl
+Ideiglenes helyekre elmenti
+Notapad++-ban nézni tudjuk.
+
+KML = KeyholMarkupLanguage
+KML XML formátum.
+
+XML extendet markup language.
+
+Kacsasőrök között nyitó és záró. Ami közte, az dokumentum objektuomok. Terjedelmes, könnyen értelezhető
+formátum. Placemarkok a lényegek. Z mindenütt 0 2D koordináta. hosszúság és szélesség koordinták.
+
+Tizedfokos földrajzi koordináta.
+
+*** KMZ fájl
+Hely mentése másként.
+Megnyitható és elmenthető.
+
+*** Ideiglenes helyek
+Oda kerül a betöltött. Elvetem, akkor az ideiglenes elvész. Lehet itt elvész, de vissza tudom tölteni
+a lementett állományt. A legfontosabbakat, erdő, beépített terület szántó. Új polyon, Erdőt beírom.
+
+Mappával struktúrálom. Kimenteni egyben a struktúrát.
+
+Először durván, Utána módosítom finomítom.
+
+Tulajdonságokban területet.
+
+Mentés.
+
+* <2024-02-19 h> Ea Az elektromágneses sugárzás
+A legfontosabb információ. Fizikai alapjaival legyünk tisztában!
+Vannak más információs hordozók is, de elsősorban ez.
+
+** Az elektromágneses sugárszás (EMS) kettős természete
+- Hullámelmélet (Huygens)
+- Diffrakció, interferencia
+
+Minélk kisebb lyukon megy át, anná jobban szóródik szét. Pontszerű lyuk gömbszerűn.
+Az ernyőn körkörös gyűrűk. Kis rekesz a fényképezőn körkörös gyűrűk.
+
+A másik
+- Részecske elmélet (Newton)
+- Fotoelektromos hatás
+
+Si (szilícium), ha fény éri az anyagok, elektron szabadul fel.
+Fény nyomás vákkumban a tükröt a torziós szálon elnyomja.
+
+Hullám és részecske természet.
+
+Hullámnak is kettős természete
+
+** A hullámnak is kettős természete
+Időben az elektromos térerő mágneses térerő változik. Ugyan akkor van maximumuk és minimumuk.
+Transzverzális hullám. Haladás irányára merőlegesen rezeg. Minden irányban rezeg a haladási
+irányra merőlegesen.
+
+Fontos természete egy teljes ciklus hossza = hullámhossz. Jele \lambda.
+
+** Hullámyegyenlet
+c = \nu \cdot \lambda
+
+- c :: a fény terjedési sebessége 3 * 10^8 (m/s) 300 e m/s Jelenleg a
+  méter adott anyagban a fény terjedési sebességnek része.
+- \nu :: nű, a frekvenci a 1/s Hz Herz
+- \lambda :: a hullámhossz (m)
+
+A frekvencia és a hullámhossz fordtottan arányos. Ugyan annyi idő alatt a hosszú
+hullám kevesebbet rezek, mint a rövid.
+
+** Planck-törvénye (ami a foton energiáját fejezi ki)
+Az elektromágneses sugárzásban haladó részecskék (foton) nincs külön neve külön hullámhossz.
+A foton (egy foton) energiája
+
+E = h * \nu = h * c/\lambda
+
+Minél kisebb hullámhossz, annál nagyobb az energiája! Nagyobb
+frekvencia, nagyobb energia, áros felfelé, UV, röntgen, gamma egyre
+nagyobb energiával rendelkeznek.
+
+Fent
+- E :: a foton energiája (J = Joule)
+- h :: Planck állandó ~ 6.6256*10^{-34}
+
+** Az EMS hulláhossz tartományai
+
+Ábra!
+
+A látható 400 – 700 nm (nem kőbe vésett határok) közelítő, vannak akik más tartományban is látnak.
+
+A látható rövidebb része az ibolya (ibolyán túli).
+A hosszabb a vörös (infravörös).
+
+Rövid felé röntgen sugarak és gamma sugarak.
+
+Hosszú felé a rádióhullámok. A rádió rövidebb hullámhosszú tartomány mm, cm a mikrohullámú tartomány.
+
+Távérzékelés: látható infra és rádió. Röntgen orvosi távérzékelésben.
+
+Sok al tartománya van. ÁBRA. Logaritmikus skálán mutatja.
+
+mm–m között mikrohullámok, de rádióhullámok.
+
+Érdemes belőni, hogy infra
+- közeli infra :: 700 nm – 1.5 mikro m
+- középsző infra :: SWIR (short wave IR) 2.5 um sok távérzékelő műholdban
+- távoli infra :: ez a hőtartomány 10 um nagyjából a közepe
+
+vörös, narancs, sárga, zöld, kék, ibolya.
+
+Mikrohullámok betűvel:
+P, L, S, C, X, K
+X = extrém a közeli vége.
+
+P sávú vagy L sávú radar.
+
+** Távérzékelésben miket használunk
+*** Aktív
+Aktív rádió és mikrohullámok = radarműholdak.
+Lézeres letapogatók közeli infravörös és látható fény.
+
+*** Passzív Napból
+Optikai tartomány ez a Nap visszavert sugárzása.
+- Látható (0.4 - 0.7 um)
+- közeli infra (0.7 – 1.5 um)
+
+*** Passzív nem Nap
+- távoli infravörös (hő) (7–15 um)
+- mikrohullám
+
+** Az EMS törvények
+középiskolai fizika ismétlés
+
+- Minden test sugároz (minden aboszolút nullánál melegebb, nagyobb hőmérsékletű elektromágneses sugárzást bocsát ki!)
+- Stefan-Boltzmann-törvény, mekkora EMS-t bocsát ki.
+- Plack milyen a megoszlása a sugárzásnak. Ez Planck másik
+  törvénye. Kibocsátott sugárzás hullámhosszonkénti megoszlása. Hogyan oszlik meg.
+- Wien-féle eltolódás. A maximum eltolódás
+
+*** Stefan-boltzmann
+\Phi = \sigma * T^4
+
+ahol:
+- \Phi :: gömbi sugárzás
+- \sigma :: S-B állandó 5.67*10^{-8}
+- T :: a fekete test hőmérséklete K
+
+Aki lázas, nagyobb a sugárzása.
+
+Fekete test, mert a környezetétől nehéz elkülönülten vizsgálni. A környezetéből is ver.
+Fekete test, minden sugárzást elnyel! Magyarán ez egy idealizált, nem ver vissza semmit.
+
+*** Planc
+a fekete test sugárzásának hullámhossz-szeritni eloszlása
+
+L_\lambda = \frac{2hc^2}{\labda^5} ...
+
+A törvény egyenlete nem annyira, grafikus megjelenítése izgalmas. Külöböző hőmérsékeltő fekete
+testek hullámhossz szerinti megozslása, Nap 5900 K vagy 6000 K fekete test sugárzása.
+
+Nullához közeli púp. Minél alacsonyabb hőmérséklet, annál magasabb a sugárzás maximuma.
+
+*** Wien
+A fenti
+
+\lambda_{max} = b/T
+
+Hol a max. Nap zöld-sárga határán a maximum!
+
+Kétszer logaritmikus skála ábra. Föld sugárzás maximuma 10 um hőtartomány közepe. 10-en fokos.
+
+** Különböző napsugárzások
+6000 K black-body spectrum
+
+Nap sugárzása az atmoszférán kívül már nem igazán szabályos, de jól közelíti az ideális görbét.
+
+Atmoszféra 30% csökkent kívül-belül jelentős különbésg. Látható elnyelési sávok. Ahol jelentős
+különbségek. Atmoszféra összetevői. Általában az elnyelési tartományok közötti sávot használjuk.
+/Légköri ablakok/. Elnyelési sávok közötti
+
+A légkör áteresztő képessége. Ábra. Látható tól infra és mikro felé.
+10 um – 1mm-ig áthatolhatatlan a z EMS miatt (üvegház hatás). Nem engedi át a hősugarakat. Nem hől ki.
+
+Látható és közeli nagy változékonyság. Kék és ibolya miatt nem látható kéket szórja legjobban.
+O_2, vízgőz, ózon nyel el. Kettő közötti a légköri ablak.
+
+Ábra Landsat sávjai és a légköri ablakok. Föld felszínét figyelő ablakok.
+
+Aktív távérzkelés szempontjából a légkör szinte teljesen
+átlászó. Radar távérzékelés időjárástól független. K-band függ kicsit a víztől.
+Fontos a tartomány!
+
+** Sugárzási mértékegységek
+- Sugárzási energia :: Q, [J]
+- Sugárzsi eljesítmény, fluxus :: \phi [W] J/s
+- Sugárzási expozíció :: H, J/m^2 mennyi hat egy felületre
+- Sug. en sűrűség :: w [J/m^3] Adott térfogaton mennyi halad át
+- Gömbi sugárzás :: \Phi W/m^2 mennyi hagyja el
+- Kilépő sugárzás ::
+- Sugárzási intenzitás :: szteradián sr
+- Sugárzás (Radiance) :: L W/m^2 * sr szteradián térszög
+
+** Sugárzási intenzitás
+Ábra. Felületen áthaladó tulajdosnág
+
+** Kilépú sugárzás
+
+Adott felületet mi hagy el
+
+** Sugárzás (Radiance)
+Adott felület adott irányban adott térszög alatt mekkora sugárzási teljesítmény halad át.
+Lambert tükrőzók törvénye. Hogyan halad át cos \alpha -val csökken ahogy laposabb szögben
+érzi. Ez az amit távérzékeléssel mérjük.
+
+Visszaverés és érzékelés szempontjából is megérthető.
+Ez a kúpszög a pillanatnyi látószög. Szteradián (gömbi szögként) felfogni.
+
+** Két anyag határán
+Ábra is
+- Áthaladás
+- Visszaverődés
+  - tükrös visszaverődés, beesési szögger
+- Szórás
+      - visszaszórás (back scattering) szanaszét szórja vissza
+- Elnyelés/kisugárzás
+
+Fák levele élő anyag, medium2 az ábrán, egy része áthatol. Egy része
+tükröződik. Szőrős levél szórja. El is nyel egy részt. Fotoszintézis.
+Melegszik a levél sugároz.
+
+Valóságban minden keverve megy.
+
+Ray tracing. Ezt modellezi. Bonyolult fizika van mögötte. Valósághű legyen.
+
+** Bidirectional Reflectance
+Növényzet esetében, hogy az objektum mennyit ver vissza, függ, hogy milyen irányból
+világítom és szemlélem.
+
+Napraforgó tábla ez egy szép példa. Egyes levelek esetében.
+
+Növények esetében /hot spot/ Mögöttem süt a nap és a levelek felém fordulnak = hot spot.
+
+Ködös időben glóriás kép. Szivárvány színű glória a repülő körül.
+
+Vízfelszín simán visszaveer. Hullámzik, akkor is visszaver, de nem annyira.
+
+Növényzet többet ver vissza, de jobban szór. Növényzetnél árnyékot is vet.
+BRDF = bIDIRECTIONAL rEFLECTANCE dISTRIBUTION fUNCTIONS
+
+Külöböző látoszögű, nagy látószögű szenzorok.
+
+** Reflektancia - visszaverőképesség
+\rho = \Phi_r / \Phi_0
+
+Minden irányból érkező és visszavert, de ebből csak egy szűk tartományban mérünk.
+
+Hullámhossz függvénye is.
+\rho_\lambda = \Phi_{r\lambda} / \Phi_0
+
+** Néhány felszínborítás spektrális reflektanicája
+hullámhossz vs reflektancia ábra.
+
+Mekkora részét veri vissza a hullámhosszban a beeső sugár.
+
+** Minimum kérdések
+- Hullámegyenlet c = \nu * \lamda
+- passzív távérzékelés tartományai optikai látható és közeli passzív mukrohullám
+- Aktív távérzékelés rádió és lidar látható
+- reflektancia és visszaverő képesség.
+
+** Digitális felvételek felépítése
+Eddig is sok szó volt róla. Különbségek hangsúlyozva.
+
+*** Tesszueláció
+A vizsgált területet úgy osztjuk fel elemi egységekre, hoagy azok hézag- és átfedés mentesek legyenek.
+
+- Szabályos tesszeláció (raszter)
+- Szabálytalan TIN
+  
+*** Szabályos tesszeláció
+Elemi egységek.
+Háromszög, négyszög, hatszög
+
+- Szabályos, de egyenlőszárú is jó. Gyakran ez.
+- Négyszög négyzet, téglalap paralelogramma
+- Hatszög sem feltétlen szabályos.
+
+Digitális alapvetően négyzet és téglalap!
+
+*** 2D szaályos tesszeláció
+- picture x element (pixel)
+- sorok, oszlopok, mátrix szerűen
+- sávok
+
+Landsat példa. különböző felbontások.
+
+*** Pixelértékek
+- Minőségi
+  tematikus kódok
+- Mennyiségi információ
+  Konkrét fizikai mennyiség pl. reflektancia
+
+Távérzékelés a mennyiségit, minőségivé alakítom.
+
+*** Digitális kép
+Szabályos 2D adatmodell, vizsgált objektum radiometriai és spektrális
+tulajdonságokat tárol mennyiségi infót.
+
+Milyen színű és menyit sugároz. A pixel értékek mennyiséget fejeznek ki.
+
+*** Lehet
+- Elsődleges
+  közvetlen digitális rögzítés.
+- Másodlagos
+  Kémműholdak kivételével nem jelentős.
+
+*** Legfontosabb ismérvei
+- Felbontás
+  - geometriai (m) pixel oldalhossza tipikusan! hosszúság
+  - radiometriai (bit, byte)
+  - spektrális hány sáv?
+  - időbeli felbontás
+- Helyigénye
+  pixel szám (sor * oszlop) * radiometriai felbontás és sávok száma = MB ha nem tömörített.
+
+*** Geometriai felbontás
+- Elemi látószög IFOV \omega rad, mrad. kúpszögröől van szó. Egy metszet beni mérték.
+- pixelméret
+  - Terepi
+  - KÉpi
+
+Fotogammetria különböző repülési mafgassűg. Műholdak nagy része fix magasság. Terepi felbontás adott.
+Van ami elnyújt. Perigee apogee. Ott változik a pillanatnyi látószög.
+
+*** Spektrális felbontás
+- monospektárlis (pánkromatikus) 1 sáv nagy sávszélesség
+- multrispektrális 2–15 sáv szllesebb sávok ~50nm
+- hiperspektrális 16–(4096) sáv keskeny sávok (-10nm)
+
+WorlView2 sávjai pánkromatikus sáv az érzékelő karakterisztikája
+meghatározó, Jelentős eltérés a sávon belül, hogy az adott
+hullámhosszon milyen az érzékelő érzékenysége.
+
+*** Radiometriai
+Mint a filmnél a feketedési görbe. Alapzaj ami a filmnél alapfátyol.
+Fotonokkal bombzázzuk, jel megjelenik. Egy idő után ez is telítődik.
+Dinaimiai tartomány.
+
+Analóg jelet digitalizáljuk. Milyen finomsággal.
+
+*** Digitális kép tárolás
+- Fejléc
+  Header, sorok, oszlopok száma, radiometria, sávok száa, pixelméret, befoglaló koordináta
+- Adatok
+  - BSQ, band sequential simán sávonknt
+  - BIL band interleaved by line sávokat s sorok között
+  - BIP band interleaved by pixel
+
+BIL a legelterjedtebb, BIP multispektrálisnál, BSQ monokróm.
+
+Itt lefagytam.
+    
+** Tömörítés
+- Adatvesztés nélküli
+  - sorkifejtő RLE
+  - lánckódolás Chain tif gif
+  - Négeyfa quadtree tif
+- adatvesztéssel járó
+** JPG
+Mindenki ismeri. Példa ábra. Minőséget a színeken látjuk.
+Szürke képet nem tudja olyan hatékonyan töörtnei
+90 és 100% között szabad szemmel nincs különbség. ált 8x8 blokk méret.
+** Digitális kép megjelenítése
+Innen folytatjuk.
+
+Ma rendes időben 13:00-ig 16-ig.
+
+* <2024-02-19 h> Gyakorlat
+** google earth
+Ideiglenesben dolgozunk.
+
+Nem lehet beállítani az alapértelmezett betöltést.
+Vissza kell tekerni 2021-08. Helytől függetlenül kezeli az időt.
+
+Nem határoztuk meg, hogy konkrétan milyen felvéte.
+Google maps satellite link. http://discover.maxar.com
+
+TErület keresése, show all images.
+Lehet szűkítnei dátum alapján rögtön az első WV02.
+Browse view-nál Azonosító quick look.
+
+Pansharpening a pánkromatikus felbontásút élesítik a színessel.
+Mexarnál GSD ground sampling distance 0.48 m.
+
+Azimut a Kecskehegyi kilátó alapján Kicsi az offnadir szög.
+Tűztoronynál a daru nagyon jól látszik.
+
+Táblából World view felvétel 8+1 sávos. Itt 8 bitre konvertálják.
+Lehet a szűrőknél keresni.
+
+Google fejlett algoritmussal simítja a pixeleket.
+2022-04 a fenyő jól elkülöníthető.
+
+Több felvétel alapján a fenyő és lomb elkülönítés megy.
+
+Multitemporális a gyep-szántó-kaszáló.
+
+Google earth egy helyen több időpont alapján tudjuk eldönteni az adott hely felszín borítást.
+
+Qgis-be behúzva. Sokszor érdemes az interpretációt korábbi adatokhozl
+
+g becsatolás
+\\emk-geo-dellsrv\geo
+nrrccad
+nrrccad
+
+g:\topo/eov10_sopron.ecw
+
+Geoshop ingyen letölthető gauss krüger térkép. Lehetne hozzáadni.
+1961 ingyen elérhető az országra. Hazai 10000 georefelált.
+
+Open topomap, vagy OSM standart is segít az adott felszínorítás mehgatározásánáőé
+Nézni az eltérést és finomítgatni az interpretációt.
+
+Vizuális interpretációt mindenkinek egy választott területre el kell készíteni.
+
+VHR-eket félre raktuk
+
+** Ingyenes űrfelvételek
+
+*** Landsat
+http://landsat.usgs.gov
+
+http://usgs.gov/landsat-missions
+
+archívumban mutatja, hogy mi honnan van. Főleg a régi időben nem készített mindig
+felvételt.
+
+Fact sheets áttenkintés a programról.
+Idővonal.
+Érzékelők fejlődése.
+
+Sok helyről elérhetők. Javasolja az EarthExplorer
+http://earthexplorer.usgs.gov
+
+Széleskörű adatokahoz ad hozzáférést. 20 éve működik.
+
+Bulk download programcsomag van hozzá. Több 100 vagy 1000 felvételt éjszaka letölti.
+Profi igényekre is alakított.
+
+Regisztrálni érdemes.
+
+**** Keresés
+Fülekkel megy a keresés, beírjuk.
+
+Landsat collection 2 level 1
+
+RBV REturn Beam Vidicon
+MSS Multispectral Scanner eredetileg kísérleti
+
+Search kriteria cloud cover.
+
+Felvételek és lábnyomok.
+
+185x185 km egy felvétel.
+
+A kiválasztott képen footpirng gom,
+- show browse overlay = felhők
+- shoW METATADAT and browse
+  - quality browse felhők
+
+Jeölésel LM LANDSAT MULTISPEKTRAL SCANNAR
+
+produlct level dátum. date product generated.
+starttime stop time.
+Egy pillanatban 6 pixel sor!
+
+Jól kivilágított. Ukrajna sötét.
+
+Nappali képet használunk.
+
+Sok-sok adat.
+
+MSS 60 m körüli érétk.
+
+LM01_l1tp_204
+
+x:\landsat 1975
+
+B4, B5, B6, B7 mivel előtte a másik.
+36 MB kb az űrfelvétel.
+
+Jóval kisebb adatmennyiség
+
+**** qgis
+Virtuális állományok.
+
+Raster menü egyebek virtuális raszter készítés
+
+RAsuter virtuális raszter építése.
+
+Több szelvényből egy sáv
+
+plae each input file input separate
+
+Színkompozit. Színhelyes színest ne tudunk
+RGB-674(3,4,1)
+
+Jelrenszernél (Symbology)
+
+Nagyítás ne legyen felhő,
+
+Jobb klikk a néven, széthúzás az aktuűlis terjedelemre húzás.
+
+Google fejlett újramintavételeés
+Nagyításnál köbös. A jobb gomb tulajdonságok alján nagyítás köbös.
+
+75-ben a 60 m nem volt rossz.
+
+Landsat 4 és 5 -ös műholdon is MSS 2012 decemberig megy.
+
+**** TM érzékelő
+
+Legutolsó felvételre ugrunk a collection Tm-ből
+189027 ez a nyugat magyaorság
+
+Felhő árnyékok. Nagyobb felbontás 30m alapból.
+7 spektrális sávunk van.
+
+WRS-2 wordwide reference syste 2 könnyeben kezelhető
+
+B1
+
+Raszter egyebek virtuális raszter
+Most cak a ltm sávok 7 bemenet
+
+LT05_20110622
+
+3,2,1 FELHŐ NÉLKÜL
+
+Színhelyes színes színkompozit
+
+Réteg másolása
+
+RGB 453 VEGETÁCIÓ VIZSGÁLATÁRA
+
+b1: KÉK
+B2: ZÖLD
+b3: VÖRÖS
+b4: KIV 
+b5: KIV2
+b6: hő
+b7: közép IV
+
+453 vagy színhelyes
+
+TULAJDONSÁG réteg neve.
+
+Mindenkinek javasolja. Érdemes regisztrálni. Könnyedén letölthető felvételek.
+
+*** Sentinel2
+* <2024-02-26 h>
+Képek megjelenítése.
+
+** Digitális képek megjelenítése
+- színfüggvény pixelérték -> szín
+- milyen tartományt jelenítünk meg az értékből.
+
+** Színmodellek
+- RGB általában megjelenítőn.  Összeadó. Ehhez a megjelenítők.
+- CMYK kivonó inkább nyomtatáskor.
+- HSI árnyalat, telítettség intencizás
+- YUV (YCC) - luminancia, krominancia jpeg tömörítés alapja (szürek nem megy neki
+  csak a krominancia
+
+** Hisztogram és trafó
+Hisztogram a pixel intenzitás értékek gyakorisági diagramja.  Vsz a
+pixel intenzitás függőleges gyakoriság ábra.  Trafót a hisztogrammal
+ábrázoljuk. 45 fok = nincs transzformáció.  y tengely vörös
+paletta. Arra transzformál. Hisztogram kiegyenlítés trafója.  Kimeneti
+szürkével. Úgy, hogy a kimeneti hosztogram egyenletes elosztás. Minden
+paletta színből ugyan annyi legyen.
+
+*** Normál hisztogram széthúzás
+Átlag +- valahányszoros szórás tartományban húzzuk szét. Ez is gyakori.
+
+** Szóródási diagram
+NAGYON FONTOS!  Két független sávban a pixel értékek
+eloszlása. Színnel mutatja. Mint domborzati térkép. Sávok között
+milyen összefüggések vannak?
+
+Tipikus Talajvonal mg terület bojt a sapkán és erdők a bal oldal. Nagy jelentősége.
+
+** Minimum
+- Digitális kép :: szabályos raszteres adatmodell tesszeláció. Adott
+  objektum spektr és radiometriai tulajdonságairól mennyiségi
+  információt tárol.
+- Digitális kép felbontásai :: geometriai, spektrális, radiometriai és időbeli.
+- Digitális kép helyigénye :: pixel száma (sor, oszlop sáv) * 1 pixel tárolás helye.
+
+* Digitális érzékelők
+Letapogatók csoportosítása. Nagyobb felbontású felvételek miatt. Egy időben
+rendelkezésre álló pixelek száma véges.
+
+- klasszikus
+  - mechanikai- optikai
+  - elektro-optikai
+- Dimenzió szerint új
+  - 0D pontszenzor
+  - 1D sorszenzor
+  - 2D szenzor (videó a területről.)
+
+** 0D letapogatók
+1 pillanat 1 pixel. optomechanikai
+Mozgó alkatrész (tükör v prizma) haladásra merőleges letapogatás.
+Whisk-broom vagy Cross-track szkennerek.
+Forgó vagy oszcilláló mozgással. 1 pillanatban 1 vagy kevés számú pixel.
+
+** 1-2D
+Elektro optikai nincs mozgó
+push-bruum or along-track
+
+Egy vagy kevés számú sor. Multispektrális felvételek készíthetők vele.
+Hogyan lesz multi spektrális? Minden pixel előtt előtt bayern rgbgrgbg mintázat.
+
+Mérőkameráknál inerpoláció több kamera a mérőkameráknál. Spektrális
+információt könnyebben gyűjteni.
+
+** Pásztázó letapogatás
+A pászta szélén a felbontás jelentősen változik. Reichenbach szállal a távmérés.
+A korrekció cos^2 \alpha korrekció. 45 foknál a merőleges pixelméret kétszeres.
+
+a = \frac{h\cdot \omega}{\cos^2 \alpha} Komolyabb felbontási szinten 250 m-es felbontás.
+1 km a tényleges és 250-re beinterpolálják!
+
+A pásztára merőleges irányban a felbontás változik.
+
+*** Multispetrális előny
+Egy prizmával vagy tükörrel. 1 pixelt eltérítjük a különböző színeket. (nagyon nem .ehet.
+1 pixel 4 sávban, multispektrális.
+
+Landsat multispektrális szkenner felépítése. Spektrális tengely. Sorszenzorral.
+
+*** Elektro-optikai
+Pásztán belüli felbontás nem változik! Szélén távolabb vagyunk, érzékelő is távolabb a vetítési
+középponttól, mint a széle. 2D érzékelő spektrális és térbeli tengely
+
+** Időbeni felbontás
+Foto-ból időbeli felbontás technológiai jellmző, kamera milyen gyakran készít.
+
+*** Geostacionáris
+Itt a műhold pálya határozza meg alapvetően.  Két
+leggyakoribb. Egyenlítő síkja geostacionárius. Fizika feladatban a
+magassága. Föld szögsebességével azonos sebességgel kering. Szökési
+sebesség, vagy lassabb nem jó.  35 600 km. Nagyon magasan van! Ny-től
+K-felé. Nagyon zsúfolt jelenleg! Minden ország ugyan oda akarja tenni
+az egyenlítőre. EU meteo szenzora afrika fölött. meteorológiai
+műholdak használják. Egyéb földmegfigyelők kevésbé
+
+*** Kvázi-poláris, napszinkron
+Majdnem a pólusokon áthaladó. 98fok körüli elhajlás 8 fok a
+pólustól. napszinkron.  Naphoz képest szinkron, és a Föld alatta
+elfordul. Téli-nyári változik, de közel azonos megvilágítási
+körülmények. Két változata van. Leszálló ágú (ascending mód) napos
+oldalon lefele, árnyékos oldal alapján föl. Tükrözzük a meridiánra 82
+fok napos oldalon felszálló, árnyékos oldalon leszálló.
+
+Általában a leszálló és felszálló is. 500-900 km pályamagasság (jelentősen alacsonyabb).
+
+Mikor halad át az egyenlítőn. 9:30–10:30 kb délelőtti. Jól süt a nap,
+de még nincs felhőképződés annyira.
+
+Időbeli műhold pálya. Geostacionárius ugyan ott, technológia, hogy milyen gyakran. Napszinkron,
+hány nap után tér vissza ugyanazon pont fölé.
+
+Napszinkron pálya LDCM orbit. Mutatna valamit. Landsat 8-9 16 nap! Pásztaszélesség 180 km.
+Jobb viszatérési idő kisebb felbontás.
+
+** LANDSAT
+Youtube videó landsat history.
+
+Lansat már megy a gyakorlaton. Távérzékelés szempontjából
+kiemelkedő. Amerikai műholdprogram a NASA és USGS közösen kezdte el
+fejleszteni. Földtani értékeket kutattak eredetileg ásványi kincsek
+hol helyezkednek el? 1960-as fejlesztés 1970-ben kapott szabad utat.
+1972 első tag. ERTS-A földi erőforrás kutatás. Eslő polgári célú bárki
+számára hozzáférhető. Sok generáció.
+
+*** Első generáció
+MSS szkenner
+
+3 ÉVENTE 72, 75,78
+
+1972-78-ig működik.
+ERTS-B-nek is hívták a 2-est. 5–6 éves visszatréés.
+Nimbus alapú műhold. Meteo műhold alapjára fejlesztették.
+
+Pályamagasság 900 km. 99.2 fok kvázi-poláris napszinkron
+9:42 descending leszálló
+103 perces keringési idő. 14 pálya/nap 18 nap visszatérési idő.
+
+WRS-1 Worldwide Reference system első generációs azonosítási rendszer
+Keletről nyugatra nőnek a pászta számok. Nem időrendben halad a pályák
+között a műhold.
+oszlopik
+sorok: 184 egyenlítő
+
+Mo-i műholdpályák 201,202,203,204, de nem időrendbe
+26-27 sor. Még az egyenlítőnél is összeérjen, minél északabbra, annál nagyobb
+átfedés. 18 nap a pászták között gyakoribb az átfedő.
+
+**** RBV
+= Return Beam Vidicon 3 független kamera, más-más szűrővel
+3 sávban. zöld vörös közeli IR
+
+80 m felbontás
+
+**** MSS
+Multi Spektrál Scanner kísérlet, ide fejlesztették.  4 spektrális sáv
+(3 a vidicon) 5-6-7 zöld, vörös és két közeli infravörös.  80 m-es, de
+a technológia miatt változik. 185*185 km-es ez itt jellemző. Egy
+felvétel négyzetes. nem programozható szenzor. Nem volt memória. Akkor
+felvétel. Egy földi vételi állomás közelében, letölthető.
+
+RBV zajos és rossz minőségű képeket készített. Nem váltotta be a reményeket.
+
+MSS viszont jó és népszeerű lett. 6 pixelnyi sávot szkennelt be egy menetben!
+pásztára merőleges sávozottság a letapogatásból adódóan.
+
+
+
+*** Második
+4-9 a következő generáció a műhold pálya tekintetében. érzékelő vált.
+TM
+
+4-5 a második.
+4 1982, 5 1984 (29 évig ment, a 7-es problémái miatt visszakapcsolták.)
+Nyugdíjazták, mert a 7-es gond.
+
+5 29 évig ment! Világrekord!
+
+4–5 MSS szkenner fent kicsit jobb tartomány és itt a TM érzékelő 7 spektrális sáv
+
+7 sáv B6 120 m felbontás. Ez már programozható.
+
+B1–B3 színhelyes színes
+B4 közeli infra
+B5 közeli infra
+B7 középinfra
+B6 termális! Kilóg a sorból.
+
+TM felvétel. 82–90-es évek végéig. A landsat a legnépszerűbb műholdfelvétel.
+Kép.
+
+Termális sáv külön. Jelentősen durvább felbontás. letapogatás iránya is látható.
+
+*** haradik
+6 megsemmisült ETM az érzékelője, de felrobbant.
+
+7-es ETM+ még fenntartásokkal még megy.
+Eddig mechanikai-optikai
+Bedöglött a mozgó alkatrész.
+
+7 1999-ben állították pályára 2003 május végéig jók. Azóta SLC-t kikapcsolták. SLC off felvételek
+
+TM + pánkromatikus sáv 8-as sáv 15 m-es felbontás.
+Termális sáv 60 m-re javult.
+
+15 m-es pan, belemegy a közeli infrába. Vegetáció miatté
+
+Probléma cikk-cakkban tapogatott le. Scan Line Correction.
+Kicsit előre ugrott és visszafelé tapogatott le. Párhuzamos pixelekkel.
+
+Ez a SLC döglött be. Végül kikapcsolták. SLC-off FELVÉTELEK. pÁSZTA KÖZEPE VILÁGOSABB,
+SZÉLÉN HÉZAGOK. Sok cikk szól arról, pótlás.. Pászta közepe ok. Széle korlátozott.
+
+*** 8-9
+Elektro.
+OLI/OLI2
+Mindkettő működil
+8
+9 2021
+
+LDCM - landsat data continuity mission
+
+OLI megjelenik, nem mechanikai optikai (elektrooptikai) Jelentős fejlesztés.
+
+TIRS hő sáv külön thermal infrared sensor. Külön szedték a kettőt.
+
+SÁVKIOSZTÁS is változott! 1-es sávot az aljára. Minden sáv lépett egyett
+2–4 a kék zöld vörös
+cirrusz kék
+infravörös.
+PAN jelentősen szűkebb tartományban! Csak láthatóban érzékel. 30 és 15 m.
+
+Tengerparit kék és még egy plusz sáv, és B9 cirrus
+
+Hőtartomény két sáv (10-11) 100 m-es felbontás.
+
+12 bites felbontás. jobb radiometria. Mérete ugyan az programozható
+
+OLI 564 A VEGETÁCIÓRA
+
+9-es OLI2 és TIRS2 műszaki paraméterei kb 8-as. más kalibrációs értékek.
+
+*** Második pálya
+705 km
+98.2 fok
+kvázipoláris napszingkron
+Egyenlítő áthaladás 9:45 (10:00 descending
+100 perc keringés 14.5 pálya
+16 nap visszatérés
+WRS-2 azonosítás hasonló jellegű
+
+oszlop: 186-189
+27,28
+
+190 sopron az osztrák szelvény
+
+*** Földi vételi állomások
+Mo alapvetően Fucino róma melletti állomás és kiruna swédország hatókörében.
+
+Régen adattárolás nem volt. Kiruna vagy Fucino volt régen. Még nem
+volt adattárolás.  Hogyan gyűlnek a felvételeszámok. Nem volt vevő,
+nem volt felvétel. Ha nem töltötte le, akkor elveszett.
+
+Jóval később, adattárolási kapacitás. Későbbi letöltésre.
+
+Legfontosabbak a landsattal kapcsolatban.
+
+** Sentinel-2
+- Sentinel 2A 2015-06-23
+- 2B 2017-03-07
+
+7 éves elévüléssel számoltak. Mindkét műhold nyugdíjas, már kész az
+újak, de még nincs előkészítve a pályára állításuk.
+
+MultiSpectral Instrument (MSI) az érzékelő
+
+13 spektrális sáv. Itt is meg vannak kavarva.
+
+8-ból kettő 8a és 8b. Máshová esnek a betűk miatt.
+
+Vastagon szedett sávok 10 m-esek (B2–4 és 8a) kék-zöld-vörös-közeli IR
+
+20 m 5-6 8b 20 m-es felbontás. Short-vawe infrared. LANDSAT sávokhoz hasonló
+
+3 db 60 m felbontás atmoszféra
+
+12 bites.
+
+290 km-t fed le. nagyon-nagy terület.
+
+Sávok képei.
+
+60 m-es sávok az atmoszféra vizsgálatát szolgálja!
+
+Programozható?
+
+*** Műhold pályák
+Felszálló ágú pályák is éjszaka és nappal. Nem k-Ny időrendben.
+
+36 - 79 - 122: 43 a különbség kettő között
+144 műholdpálya van! Utána visszatérés.
+
+Időrendi számozás! Amikor indult, akkor 290 km nehéz egybe
+kezelni. Azóta csak szelvényezve szolgáltatják.
+
+UTM szelvényezés van! Mo két zóna és átfednek a szelvéynek.
+
+33 szelvény és TXN betűkódok. Sopron.
+Átfedés ugyan az a felvétel akár két külön szelvéynben!
+
+** VHR felvételek
+Very High Resolution
+
+1 m vagy jobb felbontás!
+
+Első polgári Ikonos 1999-től. Annak idején olyanok voltak, mint a légifényképek.
+
+*** Ikonos2
+1999 nem sikerült az első
+1999 szeptember. Két műholdat fejlesztettek, de egy lett.
+
+*** Pálya
+700 km
+leszálló ágú 100 perc. 4+1 spektrális sáv. kék zöld vörös közeliIR + pankromatikus
+
+Pánkromatius 1 m multi spektárálsi 4m. 26 fok ig.
+
+Egy pászta 11.3 km széles. Ezeknél agilis oldalra tud tekinteni (agilis műhold)
+Nagyon keskeny egy felvétel! Technikai korlát!
+
+11 bit. 20 km-nél nem tud szélesebbet. Sopron nem fért be, két felvételt kellett készíteni.
+
+Pásztán belül sztereó! Előrenéz, visszanéz, szomszéd pásztába. Megfelelő geometriai pontosság.
+
+3 nap visszatérési idő. 26 fokkal!
+
+Programozható.
+
+PANsharpened felvételeket mutatott.
+
+*** QuickBird
+ugyan olyan paraméterek, mint ikonos, de alacsonyabb lett a pálya.
+
+USA 2001-10-18
+
+2007-07-18 őrség űrfelvétel. Archív 
+
+*** GeoEye-1
+Google logó GoogleEarth miatt közvetlenül szponzorálta.
+2008-től
+
+4+1 sáv. 15*15 km felvételek 27 fok oldalra 2-3 nap!
+
+*** WorldView-2
+2009 máig működik.
+
+4+1 helyett 8+1
+11 bit
+
+1.8 m (0.46) 11 bit.
+
+Kacifántos megrendelés. Taskingot kértek. Felhős felvétel készül.
+Hány % felhő lehet.
+
+*** WorldView-3
+Még tovább nőtt a felbontás 30 cm.
+
+8 swri sáv is durvább.
+
+Sok a spektrális felbontás.
+
+30 cm-je. USA törvény nem tette lehetővé fél méternél jobb felvételt.
+0.5m-el szolgáltatták. 2016-ban sikerült elérni, hogy az eredetit
+lehetett szolgáltatni.
+
+Programozható?
+
+* <2024-02-26 h>
+1-től gyakorlat. Gyakorlat célja, hogy gyakoroljunk! Fejmosás.
+
+LandsatTM űrfelvételnél tartottunk.
+
+
+tm RGB 321
+
+NÖVÉNYZET rgb 453
+
+** EarthExplorer
+
+Landsat 7 nyugdíjba vonult. Január 19-én.
+
+ETM+
+eNAHNCED TEMATIC MAPPER
+
+LANDSAT 7 ETM+ C2 L2
+
+bend 20
+
+legújabb felvételt nézünk 2023 SLC off van!
+
+Additional criteria bekapcsolhato az SLC off!
+
+Lementettük.
+
+Band8 négyszer akkora, mint a többi 15m-es felbontásával. Band 6 kis változás,
+igazából túl sok változás nincsen.
+
+X:\landsat
+LE07_20000802 18927
+B8-at hívjuk be 15m pánkromatikus
+
+12345 7 qgisbe és a kiválasztottak csoportosítása
+
+Raszter-egyebek-virtuális raszter
+
+Eredmény fájl megynitása, hozzáadja a virtuális rasztert!
+
+színkompozitok
+321 természetes szíens
+453 növényzet
+
+60 méteres a hősáv már.
+
+place each input file into separate FONTOS!
+
+** SLC nem érdemes vele foglalkozni
+
+** Landsat 8
+Letöltéssel kapcsolatban érdemes nézni, ha a letöltés gombra megyek.
+1.1 GB az állomány!!!!
+Jelentősen nőnek a méretek.
+
+Eddig L1 produkt. Egyelőre L1!!!
+
+L1: Level 1 = TOA top of atmosphere (nincs atmoszférikus korrekció)
+L2: Level 2 = BOA bottom of atmosphere atmoszférikus
+
+Ha csak egy felvétel, akkor jó TOA, több felvételnél érdemes L2, mert nagy eltérés
+a felvételek között. Nem csak idősorra, hanem a területet nem egy kép fedi le,
+hanem több, mivel nem egyszerre készülnek!
+
+Band 8 jelentősen több, mint a többi.
+
+Egyéb adatok is előfordulnak. MTL állományok txt, JSON és XML
+Ezek a metadata.
+
+Ebben vannak benne a sávok. Csoportosítva. Fájlok neve.
+
+Nap iránya megvan. Pán 15m amúgy 30
+
+Radiometriai anyagok.
+
+OLI/TIRS L8/L9
+B8 - Felhők vannak nyugaton. Sötét lesz
+
+Belenagyít felhő nélkül és jobb klikk a fájlon széthúzás
+
+A jelrenszer a tulajdonságban. min-max érték
+széthózős min max
+
+Kumulatív szám vágás. Sötétből és világosból mennyit válgja le.
+
+Kummulatív szám vágás - cummulative count cut 1%-99% szolid,
+
+Átlag +- standard deviation
+
+Nagyon világosak a felhő pixelek.
+
+Kumulatív vágás azért jó, mert meg lehet neki adni, hogy mit vágjon le!
+
+Átlag +- 3*SD kicsit szürkébb. Helyig leg is széthúzza
+
+L7 és L8 jelentős eltérés! Nagy különbség, mert L7 belemegy az infrába.
+L8 és L9 éppen az infrába beelnyúlik. Más a tartomány!
+
+Kijelölve rákattintva és jobb klikkelúgy csoportosítom. a ka
+
+432 a színhelyes színes itt
+564 a növényes
+
+*** Hullámhosszak
+A metadataban bent van a hullámhossz is! Központi hullámhossz van benne eleve.
+
+png ábrát kell keresni Háttéren az atmoszféra áteresztő képességei.
+10-11 a TIRS sávja.
+
+Landsat 7, 8 és Sentinel összehasonlítás. 
+
+*** QA Quality Assurance
+qapixel Quality Assurance
+
+Palettás egyedi értékek megjelnítés csoportosítása
+Palettát válast a synologynál és kitörlöm az 1-est.
+Paletted/unique valude
+
+Bitenként állnak össze az egyet 1 fill
+
+Internetes dokumentumot néztük. Felhő és felhő árnyék a bitekből kacifántos
+pixel értékek.
+
+A számok a bites összeget jelenti. Hi 1-es küdot töröltük.
+
+qgis alá van jelmagyarázat. Nagyon sok variáció.
+
+Kiveszetette a minusz jelnél és felhő és felhő árnyék
+
+Alapvetően automatikus feldolgozás eredményeként jöttek elő. Hol van felhő és felhő árnyék,
+hó és víz!
+
+*** RADSAT tiff
+Nem volt érték
+
+*** SAA
+Paletta egyedi érték és osztályok. Különböző korrekciók
+
+*** SZA
+*** VAA
+
+OLI TIRS érzékelői
+
+QA kivételével töröltünk!
+** png
+Landsat összehasonlító értékek
+
+MSS, tm etm+ Összehasonlító png elég jó mutatja
+
+MSS-nél 4567 a sáv. Az rossz az ábrán!
+
+** Új letöltések
+LC08 2023-09-11
+
+** Űrfelvétel elemzése előtt kivágatot csinálunk
+Pixel adatok mindig vanna, nem tud ferdét, mindig szögletes.
+    5294000
+606000     642000
+    5273000
+Kiírja az oszlop sort
+    
+21*36 km!
+
+Virtuális raszter jobb klikk exportálás mentés másként!
+
+*** Második
+Layer alapján tudom a kivágatot. Ki kell vállasztani a nevétl
+
+** VEgetációs indexek
+A kivágatokból csináljunk.
+
+NDVI a legfontosabb vegetációs index
+
+ndvi = (nir-red)/(NIR + r)
+
+Trükk a más sáv számok. OLI TIRS esetében
+
+5 - 4
+
+ndvi(OLI = (B5-B4)/(B5+B4)
+
+*** Raszter és raszter kalkulátor
+RAster -> Calculatro
+Sáv neve @ sáv száma
+
+Eredeti raszterből is számolható, de akkor sort oszlopot be kell írni.
+Célszerű elevw kivágatbül.
+
+NDVI [-1 ... +1], DE itt -0.2...0.6-ig.
+
+Minél nagyobb, annál nagyobb a vegetáciü aktivitása. Erdőnek nagyobb, mint mg területnek.
+
+Singleband pseudocolor Egyenlő intervarllumok
+
+Alja ... -0.1 = víz
+0.4 fölött erdő
+0.1..0.2
+0.2..0.4
+
+Belső tavak 0.1-ig víz. Városban is víz.
+Kicsit csökkentünk!
+
+*** Tényleges osztályozás
+NDVI kategorizálás.
+ < 0 .. 0.1..0.2..0.2...4 <
+
+ Kategorizálás raszter kalkulátorral.
+
+ Alapképlet az NDVI KIVÁGATTAL
+
+ Lentről haladunk > 0
+
+ Minden kifejezés igaz-hamis és ha igaz 1, ha hamis 4 0..4-ig lesz!
+
+( raszter >0) + (raszter > 0.1)
+
+Leosztályozott pixelből tudunk területet számolni. Ennek lesz jelentősége.
+
+Friss felvételből is csináljunk.
+
+Ideiglenes rétegek. Hernyó és lementés, ha rákattint.
+
+* <2024-03-04 h>
+Hol jártunk? Sentilen, WV3 volt.
+
+** Műhold nyáj
+Flock of satellites
+
+Elon Musk globális internet szolgáltatása. Ő is műhold nyájjal dolgozik.
+
+Planet cég kisműhold, de nem mikroműhold 30*30*60 cm Egyszerre 48.
+
+2021-01-24 48 egyszerre pályán.
+Super Dove Műhodak.
+
+Pár óránkét akár lehet felvétel. Teljesen passzív műholdak. Visszahullanak.
+Addigra a következők fent vannak. Nincs igazán
+
+Rafael Schmall: The Prison of Technology Elon Musk műholdjaiből fénykép
+
+250 db Planet műhold pályán Visszahull és elég. Időbeni felbontás miatt
+jelentős szereplő.
+
+3 m körüli felbontás, Jó ismétlés. Javuló tulajdonságok
+
+** Áttekintés
+- Meteorológiai műholdak :: Jó időbeni felbontás kell. Spektrális közöeües, gyenge geometriai felbontás jó radiometria.
+- Kém műholdak (térképészeti) :: Kiváló geometriai felbontás, gyenge spektrális jó radiometriai felbontás.
+- Erőforáskutató :: spektrális felbontás jó, ez a legfontosabb. Közepes geometria és idő, jó radiometriai felbontás.
+
+De nézzük a World Viewt. Mindegyik jó, elmosódnak a határok. Műholdnyáj rendkívül jó időbeli felbontás. Jó közepes geometriával.
+Új szegments nyit. Szállító hajók monitorozása!
+
+** Trendek
+Felbontások növelése.
+- Geometriai
+- Spektrális
+- Időbeni
+- Radiometriai
+
+Marketing jelentősége is van. Legjobb geometriai felbontásból
+műholdfelvételből több az eladott termék!  Veszik, mint a cukrot. Az
+elsők mindig sokkal népszerűbbek.
+
+*** Új technológiák
+pl. lézeres altimetria, gravimetriai műholdak, légköri vizsgálati technológiák (korábban nem volt).
+
+*** Adathozzáférés
+Közel valóés és valós idejű adathozzáférés. Planetnél szolgáltatást
+veszünk. Felvétel megvan és a szolgáltatáson belül hozzá lehet férni. Akár lehet egy adott területre bármely felvétel.
+
+*** Hiperspektrális felvételek
+Fontos tudni, hogy an egy német műhold. Régóta tervezték. Sikerült.
+Nmap nevű műhold. Ingyenes hiperspektrális felvételek. Német DLR vezette a fejlesztést. Sokat
+csúszott, de jó felvételek. Gyakorlaton megismerkedünk.
+
+** Minimum kérdések
+Amivel foglalkoztunk gyakorlaton ingyenes, közepes felb.
+
+*** Landsat 8, 9 OLI/TIRS érzékelők felbontásai
+
+*** Sentinel-2 MSI érzékelők felbontása
+10, 20, 60 m 13 spektrális, 12 bit radiometria, 1 műhold 10 nap, 2 műhold 5 nap
+
+* Aktív távérzékelési műholdak és érzékelők
+Radar érzékelők
+
+** Aktív érzékelők
+Sok műholdon vannak nem képalkotó érzékelő (egyszerű távmérő) Műhold
+magassága. Szórás mérő, az adott felület hogyan szór vissza
+elektromágneses sugarakat. (Scatterometer)
+
+** RADAR
+Radio Detection and Ranging
+
+- Időjárás-független Rádióhullámokban a légkör teljesen átlátszó. Ahol
+  a felhőborítás jelentős, trópus, szigetek, boreális rossz
+  megvilágítás. Nagy jelentőségű, napszak független, nem számít nap süg-e?
+- Mikrohullámú tartomány 1 cm – 100 cm \lambda
+
+** LiDAR
+Műholdon is. Light Detection and Ranging
+
+- Napszak-független (nem időjárás)
+- Látható és infra
+- \lambda 400–1700
+- Képalkotás scanning időben.
+
+** RADAR
+*** történet
+- 1904 Christian Hülsmeyer Telemobiloskop távolról mozgás megfigyelése. Radarhullmokat jól vissuaveri. Hajóknak a mzogását figyelik
+- 1917 Nikola Tesla, elméleti koncepció. Nagy előrelépés, csak elméleti koncepció.
+- 2 világháború között a repölőgép detektálás fontos!
+- 1934 USA, nÉMET, Franci
+- 1935 Robert Watson Watt angliai szabadalom
+- 1946 Bay Zoltán Holdradar (Föld-Hold távolság)
+
+*** Elv
+Aktív EM impulzus
+- Visszavert sugárhás rögzítése (ampli és fázis)
+- Távolság mérés, kell a fázis mérés is (hullámhossz lehet m-es is!) Hullámhosszon belüli távolságok!
+
+*** Felépítés
+- impulzus előállító (jelg generáló)
+- Jeladó
+- Kétszerező (duplexer) kibocsátott jelet a vételi oldalra rögtön, fázis összehasonlítás
+- Irányított antenna, amelyek a kívánt irányba sugároznak
+- Antenna, amely veszi a visszavert jeleket (két független antenna!)
+- Vevő amely meghatározza az időt és taáakítja a jelet
+- További feldolgozás
+  - Analóg kijelző (CRT, Film)
+  - Adattároló
+  - Elektronikus jelfeldolgozó
+
+Kép a háborús fimből Zöld katódsugár csöves kijelző. Látszik a jel, de felügyelet!
+
+*** Radar hullámhosszak
+
+- K
+  - Ka sáv: \nu =
+  - K
+  - Ku
+- X
+- C 
+- S
+- L
+- P :: \lambada 30–100
+
+Nagyobb hullámhossz, behatol az objektumba, Belső felületről
+verődik. Nagy hullámhossz talajnedvesség.  Behatol a talajba és
+víztartalomról információ. Erdészeti esetben közvetlen fatérfogat P
+sáv visszaveréséből.
+
+*** Képalkotó RADAR
+Mindig oldalra trekintő
+
+SLAR = Side Looking Airborne Radar
+
+Oldalra tekint közeliről hamarabb, távolról késbb jön. Oldalra tekintés!
+
+- RAR :: Real Apeture Radar (milyen szögből veheti a jelet?) kisebb szög, jobb geom felbotnása
+  Optikához nagy on kis nyílásszög jó optika! Nagy antenna kis látószögű felvétel. Műholdra nem fér fel!
+- SAR :: Synthetic Aperture Radar mesterségesen lecsökkentett, Antenna
+  méret, súly csökkentésre. Távérzékelésben szinte kizárólag ez!
+
+Repülő kép repölési irányra merőleges.
+a kb= c * \Delta t * \cos \Beta
+
+Vízszinteshez közeli , akkor jobb felbontás.
+Haladási irány pixelméret:
+
+b = s*\Alpha
+Minél hosszabb távolság, haladási irányban nagyobb felbontás!
+
+\alpha = \lambda / l
+
+l antenna hossz
+\lambda hullámhossz
+
+pontszerű antenna körkörösen sugároz, egyenes antenna hosszú egy
+irány, parabola is egy irány.
+
+l-et repülés és műhold technológia miatt nem nő.
+
+*** SAR
+Egyedi impulzus sorozat, kibocsátás és közben megy a hordozó
+eszköz. Így tudjuk, hogy a visszaverődő jel, honnan lett kibocsátva,
+haladási irány hosszú antenna. Haladással növelt antenna, pászta
+irányú felbontás növelve.
+
+Torziítások, rövidül a kép a nadír pont közelében. Dia, hogy a gép alatti
+képet megnyújtani, 90foknál nulla a felbontás. Hatékony pászta ne legyen
+túl közel a nadírhoz, Nagyon oldalratekintés sem ideális.
+
+*** Rövidülés
+
+Felvételek rövidülnek. Hegycsúcsról hamarabb jön a jel, mint a völgyből.
+Felvétel a domborzatból. A hegycsúcsot eltolni. Átfedés is lehet.
+
+Korrekciónál fontos a domborzat modell. Tudni kell az elem magasságát.
+Köríven belül bárhonnan visszajöhet a jel.
+
+*** Árnyék hatás
+Aktív szenzoroknál teljes az árnyékhatás (nincs információ) Nincs szórt fény!
+
+Hegyvidéken nincs ifó az árnyékból.
+
+** SAR fejlesztések
+- Polarizáció :: (régóta használt) Vertikális és horizontális polarizáció
+  két scsatornán vert és hor, két csatornán veszik. Van polarizáció
+  változtató felület. Anyagminőség! Nagy sima felület. beesésre
+  merőlegesen polarizált. Sok anyag nem ugyan úgy veri.
+- Sztereo radar :: azért, hogy domborzat modell, kifejezetten az
+  előállítás. Két vételi antenna. Meg tudom határozni, honna a jel. Két kör metszése!
+- Interferometria :: Finom eltérése a visszavert jeleknek Nagyon apró
+  elmozdulások.  Kanadai radar nyárfa, nagy levél a tűlevélhez képest,
+  polarizál, azonosítható a nyár a tarvágáson! Vonala objektum,
+  biomassza becslés, fafaj, tűzkár becslés.
+  - Interferogram ugyan arról a területről két eltérő időpont vagy
+    helyról visszaverődő jelek. Szivárvány szín. Ahol sűrűsödi ka
+    szivárvány: földrengés.  FIR magyarországon gátak, vízügyi
+    létesítmények folyamatos vizsgálata. Elmozdul valami, risaszt!  mm
+    nagyságrendű elmozdulás is akár! Ha jó a referencia adat! 1 mm + 1
+    vagy két teljes hullámhossz!  Olyan helyen működik jól. Visszaverő
+    felület épület sarka, nem változik a geometria. GT kerti
+    reflektor.  A felvételeket egymáshoz jól tájékozzák. A szórópont
+    azonos. Ehhez képest az elmozdulás könnyű. Jól detektálható
+    Jellegzetes pontok. Természetes környezetben nehezebb. Növényzet nő, évszakok.
+  - Sztereo radar domborzatmodell is színesen.
+
+*** RADAR repülőről és űrből
+Első képalkotók repcsiről.Ugyan akkora felvétel a repülőről nagy
+látószög változás. Műholdnál a két szög különbsége jelentősen eltér!
+
+*** Hordozóeszköz
+Légi:
+- Convariir-580 C/X SAR kanada
+- STAR intera kanada x sáv
+- AirSAR (NASA)
+- INTERMAP NEXTMap magyaroszági indulásnál válság, azóta sem!
+
+*** Úr
+- SEASAT 1978 L sáv, HH sima polarizál, hullámos kevésbé.
+- Európai
+  - ERS-1
+  - ERS-2
+  - envisat 2002 C továbbfejlesztet
+- Japán
+- Kanada
+  Radarsat1-,2
+
+** ENVISAT
+- ESA
+- 10 év 2002-2012
+
+Érzékelők Sok érzékelő radar.
+
+** SENTINEL-1
+ENVISAT hagyományát folytatta. Sentinel 1A 2014, 1B 2016-
+- C sávú
+- Vízszintes és függőleges
+- Új generáció kész fent van az egyik már be is döglött. Oroszokra támaszkodtak!
+- H/V polarizáció
+- Sokféle módon leht felvételt készítnei
+  - Stripmap mode teljes spászta különböző időben 20-45 fok közötti 80 km 5*5m
+  - Interferometirc Wide Swath interferometriára vonatkozik, Széles, de nem tejels
+  - Extra Wide Swath teljes területről 400 km 20*40m
+  - Wave mode 20*20
+Interferogarmhoz nem minden mód. Sok ,de nem jó.
+
+** SRTM
+Shuttle Radar Topography Mission
+
+Régi, de általánosan használt, globálisan egységes domborzat.
+2000 ben Endevour Őrrepülő 10 nap alatt, majdnem globális.
+Tavaly is hoztak ki új terméket (új feldolgozás).
+
+Sztereo radar volt. 60 m hosszú rudat toltak ki. 60- szélességig 60fokos pálya hajlás. Elég jól felmérte,
+90- 30- 10- m-es globális DDM. EU hivatalos DDM-je is SRTM-en alapszik! Évtizedekre meghatőrozó.
+
+** LiDAR
+Műholdas lidarok.
+- Optikai tartományban
+- Távmérések sorozata
+- Letapogatás -> képalkotás (radar oldalra tekint)
+*** ICESat műhold
+Jég- felhő és földmagasság
+2003-2009
+
+NASA PROGRAM
+
+kÖZEL KÖR alakú fagyott pálya. 183 nap. Évente kétszer ua a pálya. Egyenlítő mentén
+15 km, Mo 9 km.
+*** GLAS érzékelő
+Lézerágyú látható zöld és közeli infra, 40 Hz (ritka) csilla a
+geometria + GPS.  170 m-enként profil. Full-wave form. 170m-enként 70
+m átmérőjű kör. Felhőkről és növényzetről
+
+Globális famagasság térkép Michael Lefsky Global Forest Height
+
+ICESat-2
+Sokáig nem ment.
+- ATLAS Advanced TOPOGRAPIC LASER ALTIMETER
+Eltérő hullámhossz, koncepció. 532 nm 1 sugár három sugárpár, erős és
+gyenge jel. Erős kevésbé reflektáló, gyenge a kevésbé reflektáló.  10
+kHz-el dolgozik. Időmérés 800 piko sec. 10^-12 Stopperórájával
+problémák voltak. Pályára állítás ezért csúszott.
+
+3 pár, a lejtést ist tudjáb belőle. Sok eléris felület Open Altimetry.
+
+Éjjel nappal felmér. Teljes felmérés, talajpont osztályozás, növényzet magasság.
+
+*** GEDI műszer
+2018 ISS-re tették. 51.6 fokos pályahajlás. Teljes jelalakot rögzít,
+elsősorban ököszisztéma vizsgálatra. Keresztmetszetet
+viszgál. Magassági profil. 25 m-es lábnyom.  8 sugár nyaláb párhuzamosan.
+
+GEDI Fost Canopy Height. Ezzel mutatja, hogy hol milyen magas erdők.
+
+Lézeres mérések nem scanning profil menti mérések. Hosszmetszet a
+profil mentén.
+
+Ingyenesen felhasználható ez is 
+
+*** Copernicus Sentinel-6
+- 2020 pálya
+- tengerszint változás
+- Poseidon, Jason küldetés öröksége
+- 1993-től átlagosan 3mm/év! Sok pröbléma lesz.
+- Aktív RADAR eljárással. Visszaverődés a hullámzást is.
+
+** Minimum kérdések
+- SAR meghatározás olyan berendezés, ahol a pászta irányú felbontás
+  egyedi impulzus sorozattal növelve. Pászta irányba növelik. Ma az összes képalkotó radar, így.
+- LiDAR nem újdonság. Itt az Úr hordozó eszköz. ICESat 1-2 és GEDI
+- aLKALMAZOTT hullámhossz 1cm - 100m RADAR, LIDAR 400-1700 nm tartományok.
+
+** Következő anyagrész az adatbeszerzéssel
+Így zárjuk az első kérdést.
+
+* <2024-03-04 h> gyak
+** Landsat 2 betöltés
+Nagyon eltérő kategorizáslás. Vegetációs indexek hisztogramja
+NDVI 2013-2023
+Hisztogram megnézése. elmentése. Különbségekre a figyelmet. Alapstatisztikák is különbözőek.
+
+- 2013 NDVI -0.19 – 0.6
+- 2023 NDVI -0.22 – 0.57
+
+Nem nagy eltérés, de kicsit korrigálni kellene a határértékeket víz
+csúcsa lent, jelentős különbségek a csúcsokban. Kevés az erdőterület.
+0.2-től felfelé, akár lehet mind is erdő.
+
+Határok 2023-nál
+- -0.1
+- 0.05
+- 0.2 –
+
+Raszter, raszter kalkulágor. Csak négy kategória így. A kifejezéseket zárójelbe.
+(raster > - 0.1) +
+Palettás egyedi érték és osztályoz.
+
+Referencia esetén hatékonyabb a tanító területek osztályozsáa.
+
+*** Víz területek
+Megnéznénk a víz területeket
+Előtte-utána térkép Megnézzük a víz kategóriákat. Össze szorozzuk a kettőt.
+Helyi érték szerint.
+
+Raszterkalkulátorban a kat5-ben második helyi érték *10 + 2023 kategorizált!
+Első szám 2013 milyen kategória a második 2023-ban milyen kategória.
+Nem nulla 3..23.. nulla nulla víz volt és maradt!
+
+Változatlan kategóriák
+- 00
+- 11
+- 22
+- 44
+
+Nullával nehezebben áttekinthető. 5*5-ös mátrix.
+
+Van-e kérdés?
+
+** Sentinel 2
+Hivatalos oldal. Nem rég megváltozott
+Sentinel data hub a böngészőbe.
+
+https://www.sentinel-hub.com/
+
+és EO-browser -> Start Exploring
+
+Tutorialt kihagytuk,
+Kijelöni, hogy mire keressünk.
+
+Jobb oldali második ikon téglalap. Bejött négy szelvény, 2-2 sávra.
+Sötétek két sávon felmérve. Időbeni felbontás.
+
+Advanced search, max. cloud coverage. 10%
+
+Mintha a téglalapot nem vette volna figyelembe.
+
+Vizualizációnál a teljes szelvényt felveszi.
+
+Dátum szerint előre hátra lépkedni.  Felhőszárés külön
+beállítható. Sentinel 2 kondenzcsík más látószöggel, a földet teszi
+helyre. Landsatnál nincs kondenzcsík.
+
+Régit lezárták úgy, hogy az új nem működött.
+
+Teljes felvétel, ami felhőmentes.
+
+Javasolt a regisztráció. Regisztráció után a felvételek letölthetők.
+Ezen keresztül a DEM-et is el lehet érni. Új ecosystem van egy része az EO browser
+API és felhő alapú elérés is van.
+
+Copernicus Data Space Ecosystem
+
+Belépést nem enged.
+
+L1C és L2A feldolgozási szintek. Mindegyiknél ugyan az a felvétel.
+
+Ugyan azt a felvételt két eltérő feldoglozási szinten.
+
+https://apps.sentinel-hub.com/eo-browser/
+
+*** FIR
+mAGYAR FIR oldal ezen belül:
+https://efold.gov.hu
+
+Letöltéshez ügyfélkapus letöltés.
+
+L2A mindig kontrasztosabb. Néhány helyen túlkorrigálja az L2A-nál. Bal oldal egyik, jobb másik
+az összehasonlításnál.
+
+Két termék:
+- Sentinel SAFE
+- EOV geotiff
+
+Jól működik az oldal. November 11-én megváltozott adathozzáférés, február közepéig nem ment
+a letöltés.
+
+2-3 naponta felvétel, igaz, hogy felhős, de jól lehet követni. Igaz
+roszabb a geometriai felbontás, mint VHR-é, de elég jó.
+
+X meghajtón S2 mappa SAFE csomag. 1.2 GB zip.
+
+eföld felvételek.
+
+S2b_msil1c
+t33TXN
+
+Kacifántos adatstruktúra.
+
+*** MTD állomány metadata.
+l1c
+
+Sávok benne.
+
+13 spektrális sáv. 8 és 8a van külön!
+
+TCI
+Granule - azonosító - IMG_DATA
+
+jp2 jpeg2000 a hivatalos formátum. B2, B3, B4, B8 100 MB 10m-es sávok
+B5, B6, B7 20 m-es fájlok kb. 4-ede.
+B11, B12, B8A 20 m-esek
+B1, B9, B10 60 m-es sávok
+
+TCI = True Color Image Színhelyes színes B2, B3, B4-es sávból
+
+Metadatát nézegettük. Hullámhosszak, stb.
+
+10 m-es sávok virtuális raszter
+
+Raszter-Egyebek-virtuális raszter
+Külön sávra és mentés fájlba.
+
+Színhelyes színes
+B4-B3-B2 (321) a truecolor.
+
+RGB-832 (421) infra melegebb tónus.  Barnásabb árnyalat.
+RGB-843 (432) INFRASZÍNES filmtípus vörösesebb.
+
+Alul kubic convolution alul. A legközelebbi szomszédnál látszik a pixel.
+
+5-ös vörös él 6 inkább infrás 8 közeli infra 11 és 12 középső és SWIR
+
+20 m-esekből
+RGB-8a-11-5 (451)
+
+*** 60M-ESEKBŐL
+1 - tengerparti kék
+9 - vízgőz
+10 - újabb elnyelés Magas szintű fátyol felhő látszik.
+
+20m üledék miatt más színe.
+
+*** Vegetációs index
+L1C-ből is.
+
+10m-es sávokból szoktuk. B8 közeli infra, B4 látható vörös
+
+NDVI = (B8-B4)/(B8+B4)
+Az előző alkalommal a raszter kalkulátornál meg lehet adni beoglalóg. Oszlopok és sorok
+számát át kell írni.
+
+Minimumtól
+    5300000
+600000   640000 = 40 km = 4000 pixel
+   5274000 = 26 km = 2600 pixel
+
+Ki kell számolni, QGIS sajátosság. FONTOS, hogy nem számolja át közvetlenül.
+B8 és B4 felhasználva. 10m-esekből is lehetne.
+
+hisztogram szenzorok között eltérő lehet, itt is csúcsok, lehet kategorizálni.
+
+41 MB kicsit nagyobb!
+
+*** L2A
+Eddig L1C, most L2A
+
+aug 15
+
+2023-08-15
+
+L2A_20230815t095031_R079_t33txn
+
+MTD eltérő adatsturktúra GRANULE, img DATA
+
+Itt datában 3 mappa!
+
+AOT 10m, WVP fájl pluszban.
+
+AOT atmoszféra átersztő képessége.
+Hegycsúcson jobban átlát kevesebb réteg, ahol felhő, ha a domborzattól függetlenül.
+
+*** WVP
+Water VaPor
+
+Hegység.
+
+8-as sávban megváltozott a terjedelem az atmoszférikus korrekció
+hatására. Abszolút értelemben össze lehet vetni a szomszéddal.
+
+20m legyártják a 10m-eset is, 60m-nél az összes.
+
+SCL valamilyen automatikus osztályozás CL = classification.
+
+Magasabb feldolgozottsági szinten könnyebb dolgozni, de vannak túlkorrigált részei.
+Főleg hegyvidéki terület árnyékos északi lejtőjén.
+
+Processing benne a termékben. Szokták aktualizálni.
+
+Landsat L2A-t nem tárolják, ember megigényli. Itt a Sentinelnél
+legyártva, ha változtatnak, akkor változtathatnak rajta.
+
+L2A-ban redundáns felvételek.
+
+Jövő órán folytatjuk a Sentinel2-es munkáinkat. Kivágtot készítünk,
+digitális képfeldoglozás lépései.
+
+* <2024-03-11 h>
+* Interpretálás feladathoz
+
+Területleírás. Mi a terület, miért választottuk, milyen szempontból.
+
+Szép felvétel. Geometriai felbontás jelent csak meg. Nem annyira jó.
+Felvétel linkje is jó lenne.
+
+Határ olyan legyen, ami a felvételen is látszik.
+
+MMU minimal mapping unit. Minden, ami nagyob. Vonalas létesítmény, amit megadunk
+minimális szélesség. Nagyon vékony vonalas létesítményt nem különítünk el.
+
+Olyan határok legyenek, amik az űrfelvételen látszanak. Hozzá lehet
+csapni (vasút, beéptett terület.
+
+Kategóriák, corine beépített, mezőgazdasági terület, erdők és természetes területek,
+vizenyős területek. Partmenti rész. Beépítet1; beépített2
+
+Poligonok leírása, érdemi információ kellene. Hogyan változott, könnyen megnézhető.
+Nagy része 30 éve iparterület, időben változott.
+
+Konzisztencia nagyon fontos. MMU-t nagyobbt érdemes választani.
+
+Egy felvételt, ha érdemes.
+
+* Adatbeszerzések
+Gyakorlaton már érintettük. Nem olyan fajsúlyos. Rendszerezni próbáljuk.
+
+Az egyes adatokat milyen módon és hogyan tudjuk beszerezni?
+
+- Adat-előállítótól
+  - Űrkutatási hivatalok, szervezetek
+  - Magáncégek
+- Adat-szolgáltató
+  - Globális és nemzeti sadatszolgáltatók
+  - Magáncégek
+
+Vannak integrátorok, akik tanácsot is adnak. Van egy csomó kapcsolata, szaktanácsadás.
+Adat előállító azt adja, amit csinál. Nem mondja, hogy arra a feladatra nem jó a felvételem.
+
+** Nemzeti szervezetek
+Régebben csak ilyen nemzeti és nemzetközi szervezet. A 1990-es évek
+elejétől léptek be magán cégek.
+
+Adatszolgáltató is lehet sokféle.
+
+** Magyar nemzeti adatszolgáltatók
+*** Lechner Tudásközpont (ex FÖMI)
+  https://lechnerkozpont.hu/oldal/adatkorok
+  - légifényképek (Nemzeti archívum)
+  - Űrfelvételek (régen nagyobb jelentőségű) rég eladtak ingyen Landsat felvételt.
+    Archívuma van. Sok felvétel ingyenes lett, amióta megvásárolták.
+    Ha bárki vett űrfelvételt, náluk a másolat automatikusan megvolt. Azt is eladták/ják.
+  - Felszínborítási adatbázis. CORINE a FÖMI koordinálásával készült. EU honlapról letölthető,
+    de FÖMI-től EOV-ban letölthető.
+  - Egyéb adatok. DDM, egyéb földrajzi névtár, közig határok.
+    http://www.geoshop.hu első feladatra vonatkozóan is érdemes
+    korábbi munkákat megnézni.  Régi térképek hasznosak
+    lehetnek. Időben változó dolgok. Ingyenes topo térkép,
+    felszínborítási réteg. Rég ki, minek interpretálta. Fontos a helyszín ismerete.
+
+*** HM Zrínyi Térképészeti és Komm. Szolg. Kh. Nonprofit Kft.
+   https://hmzrinyi.hu/erkepeszet
+   - Nyitott égbolt, hozzéférkeztő
+   - nagy múlt és sok felszínborítás
+ 
+** Mérőkamerás légiflnyépek
+
+*** Eurusense
+Ma már csak ezek dolgoznak.
+*** Carto-Hansa
+
+*** Telecopter
+
+*** Envirosense Hungary Kft
+Jelentős szerepe van. Ország 55-60% domborzatmodell.
+Korában csak hiper spektrális és ALS.
+
+*** Űrfelvételek
+MASAT-1 eredeti specifikációval szemben kis kamera. Kis felbontású űrfelvételek (érdekes).
+
+** Magyar műholdak
+*** Masat-1
+pico (10*10*10 cm) három évig kerintett. VGA kamera
+*** SMOG-P
+P = precursor
+2019-12-06
+*** SMOG-1
+2021-03-24
+Elektroszmog mérés 5*5*10cm
+*** ATL-1
+Szigetelőanyagok.
+
+** Hivatal
+Űrkutatásért felelős.
+Külügyminisztériumhoz tartozik. Ferencz Orsolya miniszteri biztos asszony.
+Nem régen bejelentette. 2025-re saját műhold, később saját űrhajós.
+
+** Globális nemzeti adatelőállítók és forgalmazók
+A két legfontosabb az ingyenesen elérhető felvételek miatt.
+
+*** ESA
+Europai űrügynökség.
+
+*** NASA
+Amcsi légi és űrkutatási.
+
+*** European Space Imaging
+Sok adatot forgalmaz és van kimondott szaktanácsadási szolgáltatásuk.
+
+*** USGS Earth Explorer
+Adatelőállító is, mint LANDSAT üzemeltető. Adatintegrátor Earth Explorer.
+
+** Globális magán addat-előállítók és forgalmazók
+VHR ŰRFELVÉTELEK
+
+*** DigitalGlobe (Maxar)
+jelentős
+
+*** Airbus Defense and Space
+divíziójuk katonai védelem elsősorban. Jelentős szereplője a
+távérzékelési adatoknak. Pleiades műholdak. nio műhold család. Sok adat, ami jelentős
+tényezővé teszi őket
+
+*** Planet
+Műholdnyájak segítségével átalakította a piacot.
+
+** Ingyenes távrézékelés
+*** Sentinel adatok
+Nagyon sok lehetőség az elérésükhöz.
+- Sentinels Scientific Data Hub
+- Earth Explorer (egyrész csak)
+- Sentinel2Look
+- Sentinel-hub Playground
+- EO Browser
+- Land Viewer
+
+Érdemes többet ismermerni, mert idővel változik, Mit-hogyan érünk el!
+*** Landsat adatok
+*** MODIS adatok
+*** Ingyenes távérzékelési DDM adatok
+- SRTM
+- ASTER GDEM
+- ICESat/GLAS adatok
+
+Részben távérzékelés és kapcsolódik.
+** Egyebek
+- Google Earth
+  jelentős befolyásolása, VHR emberekhez közel hozva, több műhold, amit a google
+  rendesen szponzorált. Feltöltéshez
+- http://www.heavens-above.com régen jelentős volt. Német civil szervezet, globálisan
+  minden állampolgár tudja, mi van felette. Benne voltak az amcsi kémműholdak. Tudták a
+  terroristák, hogy mikor jön a műhold. Mind a mai napig meg lehet nézni mi van fölöttünk.
+  Német-amerikai konflikuts a terroristák miatt. Érdemes megnézni.
+** Minimum kérdések
+  - FÖMI-nél elérhető távrézékelési adatok
+    - nemzeti légifénykép, űrfelvétel arch, felszínborítás
+  - Katonák
+    katonai légifényképt, topo archívum
+  - Magyar műholdak
+  - VHR magánműhold Maxar összes műholdja, iconos, quick bird, wolrld view, GEOR
+
+* Felévtelek értelmezése
+Vizuális interpretáció
+
+Adatfeldolgozási résszel foglalkozunk. Két félre bontott anyag második része innen.
+
+** Felvételek feldolgozása
+- Geometria
+  - Centrális leképezés
+  - nem centrálsi leképezé
+- Tematika
+  - vizuális interpetáció (hagyományos) szemünkkel és agyunkkal értelmezzük. Tematikus térkép.
+  - digitális képosztályozás később foglalkozunk
+
+** Képi információk
+Nem mindig élesen elkülöníthetők
+*** Minőségi
+- Alak
+- Textúra ez mennyiségi is
+- szín
+- kontextus emberi agy jó benne. Város közepén, erdőtömb közepén, a
+  környezettel való kapcsolat.  Mibe van beágyazva. Gyorsan
+  áttekintjük, léptéktől független, nem külön az objektumot, hol
+  helyezkedik el?
+*** Mennyiségi
+- hely, irány, nagyság
+- szín, textúra (pixel érték, mintázat pixel érték változása)
+- Kontextus
+** Követelmények
+- Az eredmény geometriai pontossága megfelelő legyen. Adatelőkészítés
+  fontos. pl ortofotó mozaik jó legyen. Vetületbe illesztett
+  űrfelvétel. Geometriai pontosság az interpretációs munkához. Nem a
+  feladat lényege az űrfelvétel vonalai pontosak legyenek. Nem jó, ha
+  egy óráig rajzoljuk a határvonalat, mert nem rakjuk arrébb. Inkább
+  lássuk, hogy mit akar a szerző. Nagy vonalakban, inkább 3-szor
+  átrajzol, mint pontosan! Konzisztens eredmény! Alapanyag és
+  manunknak is adott pontosság. Adott nagyítási szinten kötelező a
+  rajzolást elvégezni. Hosszú egyenest berajzolni. Ne aprózzuk el
+  nagyon a munkát! Konzisztencia.
+- Tematikusan pontos legyen
+- Kiértékelési módszer megbízható és kiterjeszthető legyen. Más
+  területen, időben megismételve.
+- A térképhez kapcsolt numerikus adatok megbízhatóak.
+- Kiértékelés megfelelően gyors, gazdaságos, objektv és ismételhető
+  legyen.  Nálunk itt egy feladat (tapasztalatot szerezni). Iszonyú
+  nagy munka és területarányos.  Tapasztalat segít. Meddig érdemes
+  lemenni? Munka. Előre kiválasztott terület és aprólékosan. Meglegyen
+  és konzisztensen részekre bontani.
+** Értelemezés típusai
+*** Analóg értelmezés
+Korábban analóg felvételeken analóg értelmezés. Sokszor sztereoszkópikus szemlélés.
+- kvalitatív (minőségi)
+- szereo szemlélés
+- egyszerű eszközök
+- ismeretek
+
+Corine, kezdetén az űrfelvételeket kinyomtatták és fóliát
+fektettek. Fólián filccel határokat húztak. Fóliákat
+digitalizáltak. Ősidőben a digitális felvétel is analóg volt.
+
+Következő körben már volt más lehetőség az első CORINE így készült.
+*** Digitális képfeldolgozás
+- Kvantitatív
+- 3-nál több sávos felvételek
+- megismételhető később más eszközzel és szoftverrel megismételhető ua. az eredmény.
+- Eredmények további felhasználása. Manapság geoinformatikai renszerben használjuk!
+
+Erdedmény termék tematikus térkép. Kvalitatív, de pixel értékekkel dolgozvan kvantitatív.
+
+Színkompozitok használata. Emberi szem csak 3 sávot értelmez!
+
+*** Analóg értelmezés részeltesen
+- Kiértékelő végzi műszerrel Képanyag teljes tartalma csak nagyítással.
+- Kiértékelő szaktudása
+- szubjektív (hiába tapasztalt) próbáljuk csökkenteni
+
+Analóg mérőértelmezés
+- Egyszerűbb mérések (hossz, terület, denzitás, magasságkülönbség, stb.) objektívvá tegyük.
+
+**** Kiértékelés során figyelembe vesszük
+- teljes információ tartom
+- kiértékelő szakismeret, tudás
+- tapasztalata, tárgyismerete
+- helyismeret
+- egyéb források (10 évvel ezelőtt, statisztikai adatok, pl
+  beépítettségi százalék, külterület arányai) Sokszor jó, ha valamihez hasonlítunk.
+
+**** Műszerek követelményei
+- képek szemlélése folyamtosan változtatható
+- sztereo vizsgálat, parallaxis mérés
+- vázlat
+- átazonosítás
+- időpontokban mégzett
+
+**** pl műszer
+Wild Aviopret APT-1
+
+MAX 23x23 cm képpár zoomsztereoszkp
+
+- ráeső és áteső fényben.
+- harántparallaxisok a szemlélő forgatásával
+- vitaokulár
+
+Gyakorló vászon alatt. Forgatható karok. Fényképkivágat a vizuális kulcsokhoz.
+
+Csúcsberendezés volt. Sok tanszéki munka!
+
+* <2024-03-11 h> Gyak
+Javítás egy héten belül
+
+** Sentinel Level2A
+Augusztusi felvétel, amivel foglalkoztunk.
+
+Kivágatokat csinálunk.
+
+EOV vetületben készítjük el. vETLET ÁTÁLLÍTÁS. Az első trafo.
+
+Befoglalók:
+      272000
+452000      487000
+      255000
+
+Erre a kivágat. Lehetne külön az egyes rétegekből. Az összrakott
+virtuális raszterből is lehet. Mindkettőt megnézzük.
+
+2,3,4,8
+
+RGB-432 (321)
+JOBB Klikk mentés másként
+
+Format:
+File ER-mapper labelled
+
+10x10 m-es felbontás
+
+Viszonylag lapos a kivágat. Hozzáadást választottuk
+
+Formátum: ERMapper ers
+no = 3500, ns = 1700, 2 bájt eredeti tiff fájl, nsáv = 4, 2 byte
+
+Koordinátákkal elírtam valamit.
+
+5 sávot tettem hozzá. egy sok.
+47 600 0000
+
+*** 20m
+Ugyan így a 20 m-es kivágatok
+B05,B06,B07,B8A, B11, B12
+
+Formátum: ERMapperers
+no = 1750, ns = 850, 2 bájt eredeti tiff fájl, nsáv = 4, 2 byte
+
+17 850 000 bájt
+
+
+*** TOPO XMAP
+hOZZÁADÁS
+
+ers típust érdemes választani.
+
+Egy lépésben. Transzormáljuk és megcsináljuk a kivágatot.
+
+Más a beállytások kezelése. Alapértelmezett kompzit?
+
+RGB 843 INFRA
+
+H hisztogram széthúzás
+
+RGB-843 (432) INFRASZÍNES FILM (LILÁS)
+RGB-832 (421) infraszínes (barnás)
+RGB-432 (321) színhelyes színes
+
+újraszámolás H betűvel.
+
+**** Színhelyes színes
+Ablak alatt jobb oldalt a hisztogram gomb. Kirajzolja.
+
+Kijelölöm mindhármat. Egysuerre látom.
+
+Ha egyet jelölök ki, akkor kiírja az értékeket. Szórás és tartomány.
+
+Hasonló értékeket látunk.
+
+**** Hisztogram széthúzás
+Mindegyik kijelölve. Határok alap 0..65535
+
+Eredetileg 12 bit 2^12 = 4096
+
+Határokhoz 0..4096-ig írni.
+
+Min-maxot használjuk inkább
+
+Alap: 16 bit 0-65535 semmit sem látok
+min-max: mindens sávban. Kontrasztos, elég sötét. Nagyon világos épület.
+Hogyan lehet, hogy nagyobb értékek vannak a 12 bit helyett. Radiometrikus atmoszférikus
+korrekció miatt van. Nagyobb értékeket is kapun!
+
+***** Határok Normál
+
+Átlag, mean - 2*SD ... man + 2*SD
+
+Ez a H gyorsbillentyűvel. De az lokális hisztogram széthúzás. Minden kiég a környéken.
+Minden tartományban kiszámolja.
+
+***** %-os vágások
+
+99%-os vágás
+alul-fölül fél-fél százalékot levág.
+
+95%-os vágás normálhoz hasonló (2.5-2.5%-os)
+
+90%-os még kontrasztosabb.
+
+Ami a beállított tartomány alatt van, mind tök fekete, felette fehér.
+
+Két színű, határok ugyan az 2^3 árnyalat. Tiszta kék pixel magenta.
+
+** Szünet 10 perc
+
+* Digitális képfeldolgozás
+Lépései:
+- Előfeldolgozás (pre-processing)
+- Képjavítás (image-enhancement)
+- Képosztályozás (classification)
+- Utófeldolgozás (post-processing)
+
+Sentinel 2-nél level 2A felvétel esetében nem szokott további előfeldolgozást végezni.
+L2A = Mind geometrialilag és mid radiometriailag korrigálva. Atmoszférikus korrekció is.
+
+De az északnyugati lejtőkön a túl világos színek az erdőkben. Elég meredek területek.
+Problémás lehet. Túl világos fátyolos.
+
+Ha ezzel dolgozol, akkor L1C-vel jobb. Standard termék így elérhető, sok plusz munka
+alól megmenekülünk.
+
+** Képjavítások
+Alapvetően olyan eljárások, amely során két irányba mehetünk.
+
+- Kiemelünk számunkra fontos információt.
+- Csökkentünk számunkra zavaró jelenségeket. (zajszűrés) Képi zajok csökkentése.
+
+Pl a Fertő elég mákos hisztogram széthúzva. Többsége zaj. Homogén területeken, ahol nem
+homogén a kép. Képi zaj, világosabb és sötétebb pixelek vannak.
+
+Saltpeppernek (só, bors zaj).
+
+*** Filter
+Mindhárom sáv és kattintsunk a szűrő gombra.
+
+**** lineáris
+
+Felette a simítás gomb
+Ott Simítás erős 3x3
+
+1 1 1
+1 2 1
+1 1 1
+
+lokális, Fokális, zonális és globális funkciók
+
+Közvetlen környezet 2n + 1 ablak.
+
+Itt középső pixel 2-es súly, környéke 1-es és elosztjuk a súlyszámok összegével.
+
+Simít, de az információt is elnyomja. A simító szűrő 7x7 elmossa a határát.
+Előnyük és hátrányuk is van! B épület fel sem ismerhető.
+
+Homogén területen jó, de van korlátja.
+
+**** Élesítő szűrő
+-1 -1 -1
+-1 9 -1
+-1 -1 -1
+
+Simító vs. élesítő szűrő hatása egy metszetre.
+Az éleket (változásokat) hozza ki a felvételből.
+
+**** Nem lineáris szűrők
+Nincs súlymátrix!
+
+Statisztika szórás. Jól kihozza az éleket ez is!
+Osztrák kis parcellák. Mo. nagyobb táblás mg.
+
+Alföld nagyobb táblák!
+
+A szórás is az élesítés egyik szűrője. Mindig pozitív. Akár csökken a függvény,
+akár nő. Akár sötétből, világosba, akár világosból sötétbe, mindig nagy.
+
+Medián szűrő. Sorba rendezi és a középsőt adja vissza. Zajszűrésre kíváló
+
+- Szórás élesítő
+- Medián simító
+
+**** Domborít
+Balra -e domborít. Azok az élek, amelyek az észak-kelet dél nyugat iráynba
+
+Van egy irány az éleknek!
+
+Jobbról balra a fügőleges élt emeli ki!
+
+Sok féle szűrő van. Képszerkesztő programokban is!
+
+Még egy:
+
+Simító -> élmegőrző simítás. Edge preserving smoothing.
+
+Ez is nem lineáris szűrő. Ha élen van a pixel nem változtat,
+ha élen van, akkor megőrzi, ha nincs, akkor erős simítás.
+
+Sok szűrő mindegyiknek előnye-hátránya. Sok kombináció.
+
+*** Hányadosképek
+index felvételek. Vegetációs indexek
+
+10 méteres sávokból
+
+Látható vörös és közeli infra.
+
+B04, B08 vörös, infra (3, és 4. sáv)
+
+VI = B08/B04
+
+A topoxmap-ban a B04 nincs paletta, fent a spektrum a gomb a sávok neve alatt.
+
+Két sáv elosztás. algoritmus gomb.
+
+Algoritmus a szűrő mellett fent.
+
+R1/R2 a leírásban bent van, hogy így rövidíthető.
+
+Egyszerű vegetációs indexet nem szeretik, mert elszállhat a tartomány!
+Sokkal magasabb értékeket érhet el! Amióta kitalálták az NDVI a használt.
+
+NDVI = (B08-B04)/(B08+B04)
+(R1-R2)/(R1+R2)
+
+Itt -0.28 .. 0.72 között mozog. Két sáv radiometriai felbontása ugyan az, akkor
+-1 .. 1 között változhatt
+
+Mit fejez ki? NDVI a fotoszintetikus aktivitást fejezi ki. Fontos, hogy az erősen
+fotoszintetizáló növénynek nagy a produktivitása. Biológiai produktivitást fejezi ki.
+Nem összetévesztendő a biomasszával. Erdő esetében sok-sok év alatt. Kukorica
+fotoszintetikusan nagyon aktív. Nálunk a legmagasabb vegetációs indexe van.
+Nyáron a legmagasabb NDVI-t mutatja.
+Fenyő alacsonyabb, mint lombos, de száradó foltokat ki lehet szűrni.
+
+Infra kompozit a fenyők esetén alacsonyabb. 0.4, mellette a lombos 0.57.
+Mg, hogy éppen betakarítottak vagy sem.
+
+Itt ebben a programban nem gyártottuk le, valós időben számoljuk. Van egy folyamatunk.
+S2... 4. sávot vesszük. Ha akarjuk egy szűrőt is teszünk rá.
+
+Képjavítás szűrők és hányados képek NDVI.
+
+* <2024-03-18 h> Ea. Interpretáció volt.
+A Wild aviopret APT-1
+
+Interpretáció vs. mérőértelmezés
+
+Egyszerű mérések, amelyekkel a szubjektív interpretációt objektivizáljuk.
+
+- Denzitométer :: A film feketedését méri. Be lehet tenni a
+  filmet. Megmondja az értéként.
+- Mérőék :: Rajzot néztünk. Fakoronák átmérője. Bármilyen objektum
+  mérete. Elhúzott skála, 0.1 mm-es becslés. Átmérők és távolságok
+- planiméter raszterfólia :: területek szabályos négyzetek,
+  négyzeteken belül 100 pont. Folt területe. Hány teljes nézet, hány
+  rész, a részekben hány pont?
+- Záródásbecslő sablon :: záródás becslő sablon. A gyakorlatlan a
+  záródást alulbecsli. Vizuális támpont.
+
+Ma már nincs wild aviopret használva. Ma már számítógéppel támogatott
+vizuális interpretáció és vizuális mérőértelmezés. DigiTerra, TopoXmap
+denzitometrálás távolság és terület mérések. GoogleEarth egyszerű
+hossz-és területmérés.  Itt denzitás mérést nem tudunk. Pixel
+intenzitást nem jelzi ki. Egyszerűen áttehető, ott már denzitometrálás
+is megvalósítható.
+
+** Képi információk
+Nagyon összetett információ. Árnyalatnyi különbségek. textúra,
+finomszerkezet, felismerhető formák és mintázat.
+- sztereő képpárok további alak és struktúra felismerhető
+- Az áttekintő vizsgálattal az adott hely hogyan helyezkedik el a
+  környezethez képéest.
+- Több sávos, színes felvételeken az objektumok speciális jelgyei.
+- Felvételeket összevetve különböző időpontba, fenológiai fázisok
+  (tavasz, nyár, ősz). textúra és forma.
+
+Még ma is pótolhatatlan az ember.
+
+** Interpretációs kulcsok
+- Mintakulcsok :: Wild aviopret. Anyagból kifotózott részek, vagy
+  képkivágatok. Nagy jelentőségűek a mintakulcsoknak.
+- kiküszöbölő kulcsok :: Egyszerű döntések sorozata, az adott terület milyen 
+
+*** Mintakulcs példa
+Vízhálózat értelmezésére készült kulcsok. Kell a domborzati
+viszony. Sokféle, egymással összekötött, hajlott. Időben kevésbé
+változik. Holtág lefűződése, fontos a korábbi munkák ismerete.
+
+*** Kiküszöbölő kulcs példa
+Kiküszöbölő kulcs, egyszerű eldöntendő kérdések. Igen/nem irányok
+
+
+** Munkafolyamat
+Irodalmi adatgyűjtés, adat előkészítés. Volt-e korábbi munka?
+
+Fotometriai mérés, milyen érzékelő típust válasszunk? Megfelelő film
+vagy érzékelő típus választása.
+
+Felmérés elkészült. Minőségileg vizsgálva. Jó-e kezdődthet a minőségi munka.
+
+Mintaterület, interpretációs kulcsok.
+
+Előkészítő feldolgozás, színkiegyenlítés, geometriai képátalakítás.
+
+Ma már ortofotó mozaik a bemenet általában (régen kisebb pontosságú transzormátum mozaik).
+
+Értelmezés, mintakulcsok esetleges kiterjesztése.
+
+Döntés, osztályozás!
+
+Eredmények:
+- tematikus térkép legfontosab
+- szöveges kiértékelés
+- táblázatos kiértékelés
+- stb. (oleáta?)
+
+** Példa Nádas osztályozás
+Mintakulcs. Segítik az interpretációs munkát.
+Helyszíni fénykép a nádasról RGBI és RGB.
+
+Az emberi agy többléptékűségét még mind a mai napig jól lehet
+használni.  Most az MI terjedésével már rá lehet bízni. Volt egy-két
+előadáson, biztató eredmények, de még azért sok esetben fontos
+tanítani. Szabványos felszínborítások, jól besorolja. Különleges
+esetek, mivel korlátozott a tanítás, okozhatnak problémákat.
+
+** Minimum kérédsek viz interp
+- Vizuális interpretáció (szemmel-aggyal) tematikus térkép
+- Interpretációs műszer. Wild Aviopret. képpár, zoom sztereoszkóp (fokozatmentes),
+  vitaokulár, képkivágat, kiértékelés vázlat rajzoló.
+  De akár a google earthre is gondolhatunk.
+
+* Digitális felvételek feldolgozása
+
+A digitális felvételek, képek feldolgozása alapvetően négy lépésből áll:
+
+- Előfeldolgozás
+- Képjavítás
+- Képosztályozás :: Mindig ki kell hangsúlyozni. A legfontosabb
+  mozzanat. A két előző az osztályozás pontosítására. a következő az értelmezésre.
+- Utófeldolgozás
+
+** Előfeldolgozás
+Szolgáltatók különböző feldolgozási szinten szolgáltatnak.
+- Level-0 :: nyers adat. helyreállított teljes felbontású forrásadat,
+  csak a kommunikációs hibákat távolítják el. Redundás
+  adattovábbítás. Hiba miatt néha csonka felvétel. Nyers adat.
+- Level-1A :: helyreállított teljes felbontású forrás adat, kiegészítő
+  információk meta adatok! pályadat, geometria radiometria
+  adatok. Kieg adatokka ellátva.
+- Level-1B :: Fel is dolgozva. Geometriag helyére téve. idő, pálya
+  geom korr alapján vetületi renszerben. Eddig digital number (mértékegység nélkül)
+- Level-2 :: Konkrét fizikai mennyiség, sugárzás,
+  reflektancia. Levezetett geofizikai változok. Azonos felbontással és pozícióval, mint Level-1.
+- Level-3 :: A változók egységes térbeli cellákra alakítva, teljességgel és állandóan.
+  Modis 250m, pászta szélén több km. Lehet semmi mérést sem tartalmazó cella mérése.
+- Level-4 :: Alacsonyabb szintő adatok elemzéséből, modellezéssel előállított adatok.
+  Mérési helyek alapján kiterjesztve.
+
+Tisztába lenni, az adott feladat dönti el, hogy mire van szülságem. Magas feldolgozás,
+könnyebb munka, de módosul (akár elveszik) információ, amire szükségem van.
+Pl.: felvétel SRTM domborzat alapján helyretett. Sztereo feldolgozásra nem jó.
+Adott feladatra szükséges infó ne vesszen el! Adott célnak megfelelően ne legyen
+benne olyan lépés, ami torzítja az információt.
+
+*** Landssat
+EarthExploreren.
+
+- Collection-1 :: Level-1-es felvételek
+  - mss, tm etm+ oli/tirs
+- Collection-2 :: Level-1 (TOA = top of atmosphere), level-2 (Boa = bottom of atmosphere).
+  vagy Sr
+
+*** Sentinel-2
+- Level-0 nem hozzáférhető
+- Level-1
+  - Level-1A metaadatokkal
+  - Level-1B radiometriai
+  - Level-1C: R + geometriai korrekció
+- Level-2
+  - TOA -> BOA
+
+Megfelelő korrekciókhoz előzetes osztályozások. Level-1C-hez osztályozás, víz, felhő árnyék,
+utána atmoszférikus korrekció. Sok helyek Quick look alapján level-1C kevésbé kontrasztos.
+Van a túlkorrekció.
+
+Északi lejtő, árnyékos és erdő, nem a korrigált az igazi. Mi végezzük
+az atmoszférikus korrekciót. Feldolgozási folyamatok ismerete, ne keress olyat,
+ami nincs a felvételbe, vagy megmásítva.
+
+** Radiometriai korrekció
+R és G, illetve atmosz. Igazából összefüggenek!
+
+- Pixelérték (DN) -> fizikai mennyiség (W/m^2*sr) feketedési görbe az érzékelőnél ismert.
+  Egyszerű trafó.
+- érzékelő karakterisztikája metaadatokban bent van. Meghatározó. gain és offset
+- Felvételi geometria. Ne melkülönítető. domborzat
+- atmoszfére hatása Erre is van.
+
+*** SPOT radiometriai kalibrációja
+L = DN /A + B
+
+L sugárzás (eredmény) DN pixeléréék. A és B a fejlécben megadott álladók.
+
+Van olyan lehetőség, hogy a sugárzás érték egész legyen 1–10000 ig, ahol 10e jelent 1-et!
+Kisebb kép érdekében.
+
+** Felvételi geometria
+BRDF hatás: bidirectional reflectance distribution function
+
+Honnan süt a nap? Korrekciónál figyelni
+
+** Topo normalizáció
+- Topográfia a felvétel geometriájára és radiometriájára is hatással.
+- Geometria -> orthorektifikáció ma már ez a geometria
+  készítése. Durva felbontásnál nem nagyon, ott csak egyszerű trafó.
+- Radimetria -> topográfiai normalizáció gyakran az atmoszférikussal
+  együtt.
+
+*** Módszerek
+- Lambert-féle tükrőző :: a felület merőlegesen süti a nap világosabb,
+  nulla fokos szög, akkor legsötétebb. Ez alapján korrigál i =
+  incidencia angle, nap sugárzása és állásának különbsége. Felület
+  modell, napállásszög, megvilágított felület és korrigáljuk. Csak
+  közelítő módszer, légkör hatása, direkt és szórt fány aránya.
+- Minnaert módszer :: súllyal figyelembe veszi a direkt és indirekt
+  fény hatását. Tanítható korrekció. Különböző beesések, meghatározza
+  a minnaert konstansokat.
+
+*** Példa
+Landsat, délkeletről süt a nap, É-NY árnyékban. Kilapul a
+domorzat. Ahol ugyan az az állomány északon is, eltűnik az
+árnyék. Korrigálni és a korrigált felvétellel dolgozni.
+
+Nagy javulás érhető el a megfelelő radiometriai korrekcióval.
+
+** Atmoszférikus korrekció
+Passzív távérzékelés kétszer áthalad a sugárzás. Vízgőz és aeroszol befolyásolja.
+Ki akarom ejteni.
+
+*** Mószerek
+Sokféle
+- Analitikus mószer :: sugárzás áthatolási egyenletek. Hogyan
+  befolyásolja a sugárzást? De nem ismerjük igazán a légkör
+  összetételét. Régen külön csömag erre.
+- Földi mérések :: a földre lejutó fényt vizsgáljuk. ami egyszer jön
+  le. Nagy ember igénye, komoly szervezést. TErületen belül is
+  változhat az atmoszféra.
+- Egyéb :: manapság a műholdon legyen olyan érzékelő, ami az
+  atmoszféra vízgőz tartalmát becsli. Sentinel 60 m-es sávjai.  A
+  train NASA. 3-4 műhold egymás után pár másodperccel. Egyik mérését
+  korrigálták a másik méréséve. Automatizált korrekcio. EO-1 műhold
+  AtmospehricCorrector Elszórt mintaterületek pl. sivatagban. Nagyon
+  jó minta. mérései alapján becsülhető a kalibráció.
+
+*** Példa
+Jelentős javítás, de ha a felhő teljesen eltakar nem lehet csodát
+csinálni. Igen fontos és jelentős.
+
+** Geometriai korrekció
+Célja, hogy az űrfelvétel valamilyen vetületi rendszerben legyen. Érzékelő dimenziója.
+
+0D és 1D szenzorok sima polinomos trafó
+
+VHR felvételek elterjedésével nem elég jó
+
+1D közelítő
+Törtpolinomos
+
+2D (1D) ortorektifikáció!
+
+*** Polinomos trafó
+Illesztőpontok segítségével. Vetületi koordináta pixel koordináta
+polinom együtthatói kiszámíthatók.
+
+Páratlan fokszámú polinomok 3-ad- 5-öd fokú. Extrapolácihatása, ne
+menjenek el szélső esetben a dolgok. Régen természetes. Még ha
+vetületbe volt, akkor is polinommal transzformált.
+
+Ma más sentinel2 és landsat is világméretű referencia térképek,
+képegyeztetéssel illesztett, automatikus geometria pontosság. Metaadatokban megvan,
+ha megváltoztatják a geometriai forrásadatot. v21 változat.
+
+Ma világméretű globális referencia térképhez igazítva.
+
+*** Törtpolinomos trafó
+RPC rational Polynomial Coefficients
+
+Két polinom hányadosaként a koordináták. a VHR megjelenéséve.
+Itt fordított fi, lambda függvényében a piel koordináta.
+
+Két polinom hányadosa. Együtthatói a felvétel soráan
+
+NumCoef, DenCoef nomitator, denominator, a geom trafó egyszerűen megvalósítható.
+
+Sokat fejlődött a felvételek transzformálása. Régi Sentinel, újabb Sentinel ma már kisebb
+geometriai lötyögés.
+
+*** Ortorektifikáció
+Fotogammetriai úton biztosított eredmény termék! Ma már a felvétel geometriájával
+csak speciális esetben kell foglalkozni.
+
+Régen nem volt standard. Geometriával sokat kellett foglalkozni.
+
+Előfeldolgozás vége, képjavítás a köv héten.
+
+* <2024-03-18 h> Gyak.
+Folytatjuk a digitális képfeldolgozást.
+
+** TopoXmap folyt
+TopoXmap s2_220230815_v2VI.view
+
+Megcsináltuk az NDVI-t is múlt órán.
+
+Ma a képoztájozást kezdjük.
+
+Hozzáadom a tulajdonságoknál az új folyamatot, akkor lesz a négy sáv.
+
+- B02 = 1
+  B03 = 2
+  B04 = 3
+  B08 = 4
+
+Sávval tudom válaszutani.
+
+Raszter -> statisztikata
+
+Számolja újra.
+
+A négyes sávunknak a legnagyobb az információ tartalma.
+
+Felül teljes statisztika kiválasztása.
+
+Kovariancia mátrix átlójában a szórásnégyzetek szerepelnek.
+
+x1-xátlag
+
+Kovariancia mátrix átlójában a szórás négyzetek.
+
+Hol vannak negatív számok? Az egyik tag fordítottan arányos a másik
+taggal. Szimmetrikus mátrix.
+
+Az inverzben nincs sok információ a tizedesek miatt.
+
+Korrelációs mátrix. Önmagával korrelál.
+Az első három sáv nagyon korrelál egymással.
+
+Mindegyik fordítottan korrelál a infra. A növényzetnek köszönhető
+elsősorban.
+
+Grafikon átlagok
+
+*** Grafikon hisztogram
+
+Itt az 1-3 alacsony, IR magas. Olyan űrfelvétel, ami jelentős részben
+növényzetet ábrázol. Hisztogram megadhatók a binek.
+Bal oldalon át leeht írni
+
+*** Grafikon: szóródás
+Ez is a felső menüből. Átlós vonal, színek a gyakoriságot jelölik.
+
+Vsz tengelyen 3 látható és függőleges 4-es az nearIR
+
+Ellipszis nagytengelyei a varianciákat mutatják. Negatívan korrelál egymással a kettő.
+Magasabb közeli infra, Pozitív korreláció, pozitív, negatív negatív irányba.
+nincs, akkor kör.
+
+Alján a talajvonal, csupasz talajfelszín vegetáció nélkül.
+
+Jó kis csoport a talajvonal altt. A fertő tó.
+Bojtos sapka alak. Pereme a talajvonal bojtja. Bojtos sapka transzformáció.
+Látható vörös - közeli IR sávot a szóródási digaramon megjelnítjük.
+
+** Újabb sávok hozzáadása
+További sávokat 20m-est hatszor hozzáadom. Job klikkel a sávon átállítom.
+5,6,7,8a,11,12
+
+2-3-8 paletta a többinél nincs.
+
+Teljes statisztika az összes rétegre.
+8A-nál a legnagyobb a szórás.
+
+6-7-8A negatívan korrelálnak. a két utolsó alacsonyan
+korrelálnak. középső infra tartományban vannak.
+
+Grafikon: átlagok tipikus vegetáció.
+
+*** Grafikon: szóródás
+Erős korreláció Grafikon: szóródás 8,4 között
+
+3, 5 vörös és vörös él
+3, 6 jobban mutatja a negatv korrelációt
+
+1000 lépésköz százasra. 3-6 mint közeli infra tartományt mutat.
+
+** Osztályozás
+Végezzük el az osztáyozást.
+
+Két nagy csoport:
+1. Tanítóterületek nélköli (Unsupervised)
+2. Tanítóterületekkel (Supervised) osztályozás
+
+*** Tanító nélkül Nem felügyelt
+Bal oldalon nem felülgyelt osztályozás
+
+Kezdeti osztályszám: 5.
+
+Négyes sávnál nézzük. Egyenlővel indul. Újra számolja. 4000 csúcsot
+átlag eltolódik fölfelé sé lefelé Minél több iteráció, annál jobban igazodik a határokhoz.
+
+Új osztály felvétele. 256 pixelintenzitásnál felvesz. Ez több mint 8 bites.
+
+12 bitre 4096-ra vigyük fel. Új osztály felvétel.
+
+Küszöbre egy 10-es értéket adjunk.
+
+Mozgó osztályokat kapcsoljuk be!
+
+- Mozgó osztályok
+- kezdeti szám 5
+- új osztály 4096
+- küszöb 10
+
+Lehet az iteráció. Fájlszerver prioritások?
+
+Hiba történt a feldolgozásban.
+
+Kijelzés osztálystatisztikák, szóródási diagramokon mutatja az osztályokat.
+
+C 62
+
+- Mozgó
+- 5
+- 16384
+- 100
+
+Színek is segítenek. Osztályonként más grafikon
+
+*** Felügyelt osztályozás
+Átlagtól való távolság
+osztályba soroltási küszöb 1000
+
+MDM minimum Distance to Mean osztályozás 1000-nél messzebb van, nem sorol be.
+
+Eredményeként statisztika. Osztályok százalékos elosztás.
+3.6 M pixel besorolva; 2.3 m nem.
+
+Bezár és eredmény hozzáadva.
+
+Egyes és kettes osztály között nem tudonk osztályozni.
+
+Küszöböt feljebb visszük 10000-re, hogy nel legyen küszöb eltolva.
+
+Nem veszi figyelembe a pixelek szórását és eloszlását.
+
+Max valószínűséget választunk. ML = maximum likelihood.
+
+Osztályba sorolási küszöb, csökkentett érték
+
+e^-400-ont már nem veszi figyelembe.
+
+Minimum distace és ML között milyen eltérés.
+
+Dudlesz esetében sötétebb osztály a felnyőnek.
+
+Minimum distance nem veszi figyelembe az eloszlást, szórást.
+
+ML: Haranggörbe,
+minél magasabb, annál valószínűbb.
+
+Átszíneztük. Nagy foltban egy-egy pixelnyi másik osztály.
+
+Osztályozás eredményét simítani.
+
+*** Szűrés
+Összesimítom, ktematikus kódok.
+
+Medián szűrőt használjuk.
+
+Statisztika-medián szűrő. 5x5-ös medián talán durva, de jól demonstárl. Utómunkának
+most jó.
+
+** Szünet
+
+** Folytatás Tanító területekkel történő osztályozás
+
+Térkép réteg létrehozása
+vektor, terület
+
+Nagyobb dolgokat megfogni előszor
+
+Újabb oszlop az adattáblában.
+Osztály legyen a neve.
+Karakter
+
+Rétegen vektoros réteg.
+
+Osztályoz. megadni a tanter osztályát.
+
+Van egyedi gomb.
+
+Színezzük őket.
+
+Osztályozás régió térkép
+
+Finomabb osztásköz a grafikon:szóródásnál
+
+3, 4 sávra, átállítva
+
+Felügyelt osztályozás, max valószínűség, -100-zal próbálkozunk.
+
+Kevesebb pixelt és angyobb megbízhatósággal sorol be.
+
+Egy idő után eljutunk oda, hogy nehéz konzisztens kategória renszert kialakítani.
+Első változat után...
+
+** Üres cella
+Nullás kód az üres cella.
+
+Bármelyik osztályt az átlátszósággal meg leet nézni.
+
+Fertő esetében olyan víz, amit nem osztályozott. Nem homogén a Fertő. Belső tavak
+barna víz. Rákosi pedig keveredett. Rákosi öböl még egy tanító terület
+
+Nem jelenik meg a poligon. Egyedire nem enjünk. Új és manuálisan beírom
+Fertő2
+
+Szóródási diagramon megnézni!
+
+Rákosi öböl kategóriáját külön akarom vagy sem?
+Külön osztály, vagy betesszük ugyan abba az osztályba?
+
+Több tanító terület ugyan az az osztály vagy?
+
+Érdekesség Szántó2 és szántó1 egybe. Nagy szórás, két távoli
+pontban. Nem érdemes összevonni. Egybe vonni és külön kezelni.
+
+Könnyebben kezelhető legyen a kategória. Hierarchikus jellegű kategória rendszer.
+
+Szántók, azon belül az erdők. Azon belül tövább osztom. Corine kódokat nézzük.
+2 szántó 3 erdő 5 vízfelület
+
+21 szántó
+22 szántó
+31 lombos
+32 Fenyő
+51 Fertő
+35 Nádas
+
+Sorrendbe az osztály szerint.
+A-z rekordok rendezése melyik oszlop alapján?
+
+Áruház burkoló
+1 Beépített1
+
+Vonalas tanító terület nincs. Elkerülőnél mennyire széles és mennyi kevert pixel?
+
+Itt a tanító területekben van a lényeg. Összevonjuk, szétszedjük az osztályokat.
+Jók legyenek a tanító területek.
+
+Dzsindszás sok. Szántó rét, legelő, amit ritkán művelnek nehezen elkülöníthető.
+
+Alakuló osztályozás.
+
+* <2024-03-25 h> Ea
+Majdnem késtem.
+
+** Geom trafo
+Törgpolinomos VHR felvéteelk Egyenlet
+Ezzel vége az előfeldoglozásnak.
+
+** Képjavítás Image enhancement
+Olyan művelet, amely során csökkentjük a képosztályozást zavaró tényezőket, kiemelni, ami
+segítségével az oszályozás pontosabb lehet.
+- Hisztogramm műveletek
+- Szűrők
+- Művelet sávokkal
+
+*** Hisztogramm műveletek
+Elsősorban vizualizációs céllal. Ritkán mentjük.
+
+Pixelintenzitások gyakorsiági diagramja.
+
+Hisztogram trafó a bemeneti és kimentei intenzitások kozötti (függvény) kapcsolat.
+
+Hisztogram Bemeneti pixel értéket milyen paletta színnel jelenítsük meg.
+
+Alapból 45 fokos egyenes.
+
+Alapértékek az adott színmélység, tényleges max-min, normál. Pixel intenzitás átlaga-szórása
+átlag -2*szór átlag -2*szór húzzuk ki.
+
+Sokszor szűk tartományt húzunk szét a 255-re!
+
+**** Hisztogram kiegyenlítés
+A kimeneti pixel intenzitások egyenletes eolszlásúak legyenek. A megjelenítőn
+minden színre ugyanannyi pixel szerepeljen. Hisztogram kiegyenlítés szemünk
+számára kontrasztos eredmény
+
+**** Gamma korrekció
+Minimum és maximum értéket nem módosítja. Közép tónust világosítja
+Gamma nagyobb mint 1 világosabb közép kisebb egy (konkáv) sötétít.
+
+Sok egyéb trafó lehet. Ma ritkán használjuk, hogy az eredményt
+elmentjük. Speciális eseteklehetnek, de főleg vizualizáció miatt használjuk.
+
+Digitális képfeldolozás előtt ne a transzformált változatot mentjük.
+
+*** Szűrők Filterek
+Geoinformatikában fokális funció. Pixel és a közvetlen környezetében
+értelmezett művelet. 3x3 5x5 ablak. Nagy ablak nem olyan hatékony (számítási igény is)
+
+**** Lineáris
+A pixel értékeknek a lineáris komibinációja. Minden súlyszám 1 az ablakban.
+Bármely súly szerepelhet. Középső pixel és környéke. Súlyszám összegével osztunk.
+
+Végighalad az összes pixelértéken, súlyszámokkal szorozzuk és osztjuk az összegével.
+
+Gyakran használjuk. Két alapvető típusa. Simító szűrők. Súlyszámok azonos előjellel.
+Élesítő szűrő, ott ellentétes előjel.
+
+**** Adaptív
+Nem lineáris kifejezéssel, hanem algoritmussal számolom a régi értéből az újat.
+- min
+- max
+- medián
+- szórás változás detektálás Csak él és nem detektáljuk az irányt.
+- élmegőrző egy időben gyakran használt. Megvizsgáljuk az ablakon
+  belül az irányokat. K-Ny É-D és Átlós irányban pixelek változékonyságát, olyan
+  irányban élen, akkor ne változtatjuk. Homogén zaj szűrés, éleket nem bántja.
+
+*** Sávok közötti műveletek
+Hányados és index képeknek is hívják. Melyi kifejezés a legjobban elfogadott?
+
+Sokféle indexet használunk
+
+**** Vegetációs indexek
+Növényzet reflektanciája. A görbék alakja. vörös él, meredeken növekvő
+refektanica. Közeli IR-ben is. Erre teszik a sávokat.
+
+A levélben található likacsos parenchima sejtek. Sejtszerkezetüknél
+fogva a közeli IR-t visszaveri. Stressz alatt, vagy szárazságban nem
+annyira jól veeri vissza. Magas visszaverésért felel.
+
+Klorofill-a és krolofill-b Elsődleges látható kék, másodlagos vörös, közben
+a zöldet nem használja a növény. Kékben nagyobb elnyelés, de a kék tartományban
+légköri pára jobban befolyásol. Kevésbé befolyásolja a vörös tartományt.
+
+Vegetációs indexek elvi felépítése.
+
+Látható vörös és közeli infravörös koordináta renszerénen.
+Talaj vonal majdnem 45 fokos egyenes. Talajvonalon, ahol nincs nedvesség.
+
+Talajvonal felett a vegetáció. Pixel talajvonaltól szögét vagy
+távolságát számolhatjuk. Minél távolabb, annál magasabb a vegetációs index.
+
+Egyszerű vegetációs inde a kettő hányadosa. Nagy eltérések lehetnek.
+
+NDVI = \frac{NIR -R}{NIR + R} bár eltejredt, de különböző szenzoroknál nem lehet
+olyan jól összehasonlítani. közeli infravörös és vörös!
+
+PVI merőleges vegetációs index. A talajvonaltól vett merőleges távolság.
+PVI = \sin \alpha NIR - \cos \alpha R
+Kell a talajvonal szöge. Világos és sötét talajvonlal kijelölése és annak a szöge
+
+súlyozott vegetációs index
+WDVI = NIR -s * R
+
+Enhanced veg ind. vörös sávon kívül a kéket is figyelik. A paraméterek meghatározása
+nagyon kritikus lehet. Sima normalizált nem paraméteres. Változatlanul népszerű,
+nagyon objektív. EVI gondos paramétermeghatározás idő!
+
+**** Egyéb indexek
+
+majd 300-féle vegetációs index a szakirodalomban! Sokféle, szakterület és földrajzi
+terület más-más. Egyes szakterületeken tudják, hogy melyi jó.
+
+NDVI olyan, mint a kályha. Ezzel hasonlítják a teljestményét sokszor.
+
+***** Bojtos sapka (Tasseled Cap)
+Kauth és Thomas Landsat mg feldolgozásával. látható vörös és közeli vörös mg
+területen bojtos sapka.
+
+A landsat zöld erősség nedvesség és világosság trafó.
+
+Zöld erősség a vegetációval. Tapasztalati úton a súlyozás.
+
+Automatikus idősoros feldolgozásnál gyakran használt. Objektív úton!
+Paraméterek nélkül az eges változások szétbonthatók.
+
+**** Főkomponens analízis
+Nagyon fontos, mert látható tartományban a sávok nagyon korrelálnak.
+Pixelek változatosságát meghatározzuk, hogy milyen irányba a legnagyobb.
+Arra merőleges a második főkomponens. Merőlegesen, nem is marad információ,
+ha felmére. Erőss korreláció, Egy főkomponens elegendő.
+
+További komponensek. Nagy jelentősége. Landsat 8 OLI+tirs
+
+Első főkomponens, vs 10. főkomponens. Ezen jön ki a felhő jól és a zaj.
+
+Áttranszformáljuk a főkomponenseket. Utolsó főkomponens zaj. Simítjuk a felvételt
+és visszafele megcsinálva a sávok visszaállítva. Sokszor számunkra fontos inforációt
+egy-egy főkomponens tartalmazhatja.
+- Felhő detektálás utolsó főkomponensen
+- zajszűrés, élek nem csökkennek ahogy fent a zajt tartalmazó komponenst simítom!
+  Így lesz egy zajszűrt kép, amit mindegyik sávon megkapok!
+- Bizonyos infó kiemelése
+
+** Minimum
+- Radiometriai korrekció meghatározása mértékegység nélküli pixelből sugárzás mértékegység
+- Geometriai korrekció egy geometriailag korrigált képek kapunk. A
+  nyers vetület nélküli felvétel vetületbe illesztése
+- NDVI adott növényzet fotoszintetikus aktivitása NIR - R/NIR + R kb. -1-től +1-ig
+
+* Digitális képosztályozás
+Digitális képfeldolgozás legfontosabb művelete.
+Ezért előfeldolgozás és képjavítás, hogy a képosztályozás jó legyen (utófeldolgozás az eredmény
+hatékony felhasználására
+
+Def: a folyamatos pixelértékekből diszkrét, minőségi pixelértékeket
+(kategóriákat, tematikus kódokat) kapunk.
+
+Kategória térképen nem jó az átlagoló szűrő. Tematikus kód és kategória az eredmény,
+minőségi információ.
+
+** Típusai
+Idővel is sok fejlődés történt.
+
+Osztályozsás egysége:
+- pixel-alapú :: ez volt az első, ez volt az elején. Algoritmus
+  vizsgálta és osztályba sorolta. Pixelt nem osztjuk, külön-külön
+  vizsgálva. Landast 30 m pixelméret jól működött pixel alapú
+  osztályozás. Összefügg az oszályozás a mérettel. mg területe OK.
+  Nagy méretarányú képeknél már nem biztos, hogy jó. Objektum nagység
+  és pixel méret viszonya.  5m-es pixel méret esetén az egyes fák
+  koronája már látszik. Nem homogén az erdő terület.  30 m-nél még
+  homogén! Felbontás növekedésével a pixel már objektum bizonyos
+  részét ábrázolja.
+- Fokális, pixel és közvetlen környezte :: mint a
+  filterek. paraméterek és bevonva az osztályozásba. A pixelméret
+  csökkenésével egyre romlik a hatékonysága. 11*11 pixel is
+  nehezen. Nagy szűrőméret nehéz.
+- Szegmens-alapú :: csoportokra, szegmensekre bontom a képet, és
+  azokat osztályozom.
+- Referencia-vektor alapú :: valamilyen referencia vektoros térképet
+  használunk fel. Adott HRSZ-re elemzem a képeket
+- szub-pixel alapú :: ha számomra az érdekes objektumok kisebbek, mint
+  a pixel mérete. 30x30 vegyes felszínborítások. ott lehet szubpixel.
+
+Minden objektumnál van határfelbontás. Landsat 30m felszínborításra
+kiváló. Felbontás növekedésével egyes fák látszanak. Nap által sütött
+és nem sütött koronák. Tovább a felbontásban a levelek is akár
+látszanak, de az erdő látszik. Akár leveleken beüli is újabb dolgok.
+
+Házak épületek esetében is igaz. Házak osztályozása, egyes cserepek
+osztályozása. De akár a cserép szám alapján tudok dönteni, cserepes
+vagy más fedés.
+
+Vizuális interpretációval sokkal könnyebb. Digitális képozstályozásnál
+ma is még elég komoly, hogy milyen egységekre osztunk. Meg lehet
+csinálni, de olyan osztályozási típus, ami célra megfelel. Adott
+forrás felvétel felbontása is fontos!
+
+Fű osztályozásnál sem a fűszálaknak kell látszani, hanem olyan (akár
+méteres) felbontás ami a fű tulajdonságait mutatja.
+
+*** Osztályozás fajtái
+- Tanítóterületekkel ::
+- Tanítóterületek nélkül :: 
+- Hierarchius ::
+- Neurális :: 
+
+Pixel alapú az első kettő. Adott területről visszaveerés alapján a
+pixelek csoportosan helyezkednek el. Látható vörös és közeli IR
+tartományban. Osztályozás a csoportokat próbálják
+elkülöníteni. Vannak, amik kis szórással. homok kis
+tartományban. Kőbányák osztályozása Kózet alapján. Teleüpülés nagyon
+szór, mert heterogén!
+
+Tapasztalati úton, elméletileg is igazolható. Más-más felszínborítás, elkülönítése.
+
+**** Tanítóterület nélküli Unsupervised
+Nincs mintaterület. Egy-két paraméter hány terület iteratív, stb. Utána a gép
+oszályoz, feladat, hogy az osztályokat beazonosítsuk. Egy-két paraméter után osztályozás.
+
+Egyszerűnek tűnik, de sok osztály, de az osztályok beazonosítása
+nagyon nehéz.  10 osztályt szeretnén, akkor összevonom az osztályokat
+20-ból. Azt kell besorolni 10-be. Összevonogatni.
+
+***** Klaszterezés
+Csoportokat akarunk a pixelekből.
+- iteratív jobb, mert igazodik adatainkhoz. Hatékonyabb
+- nem -iteratív
+
+Hisztogramm elemzés. Hol vannak csoportok az intenzitásban. Minimumok
+a határok a két osztály között. Automatizáltan, Függvény minimuma a
+két osztály határa. Hatékony lehet.
+  
+**** Tanítóterülettel (Supervised)
+Az operátor jelöli ki a tanítóterületeket. A gép ez alapján osztályozza a teljes képet.
+
+Nagy meló a tanítóterület, de be kell sorolni és utána a gépek tudják.
+
+unsupervised csak összehasonlításra. Komoly eredményre nem használják.
+
+Tanító területek Három kijelölt osztály. Átfedő hisztogramok.
+Minden normál eosztású mindennél, de sokszor nem normál. Kijelölt pixelek alapján
+Az ábrán a különböző besorolások mintája látszik. Átlagon kíüvl mást nem nézünk.
+Tanító terület csak átlag értéke.
+
+- Legközelebbi átlag :: minimum distance to mean
+  kis szórásúnál előfordulhat, hogy mást oda sorolok.
+- legközelebbi (k) szomszéd :: Nearest Neihbour, kNN kijelölt pixelhez
+  melyik tanítóterületben a szomszéd pixel. Ha jók a tanítóterületek
+  akkor jó. Robosztosítani, hogy nem csak egy szomszédot nézek, melyik
+  osztáyban a legközelebbi három szomszédot vizsgálom. Három szomszédot szokás nézni.
+- Hipertégla :: paralelepiped osztályozás. TAnító terület az adott
+  sávban milyen tartományan mozog. Egy dienzióban szakasz, 2 D
+  tékgalap 3 D téglatest, utána paralelepipedon. A szoros függés miatt nehéz, pixelek
+  a tégla átlójában. Főkomponenseken hatékonyan használható. Ott a téglalap tengelyei!
+- Legnagyobb valószínűség :: maximum-likelihood. Kijelölt területeken
+  a pixelek gyakoriságát valószínűséggé alakítom. Átlagnál a 100 ból
+  20 pixel átlag körül 0.2 valószínűség. Abba az osztályba, ahol a
+  nagyobb valószínűség. Két valószínűség metszi egyymást. Egyikbe és
+  másikba.  Határérték meghatározása, mi legyen a határérték, aminél
+  messzebbi pixeleket nem akarok besorolni. Hiányzó osztály, nem
+  lesznek osztályba sorolva a pixelek. Határérték meghatározása.  max
+  likelihood esetén küszöb valószínűség, ahol már nem tesz egyik
+  osztályba se. A visszautasítottak alapján beteszek új
+  osztályt. Fontos mi a határérték. Minél szogorúbb, annál kevesebb
+  pixelt oszt be. Úgy csináljuk, hogy szigorú feltételekkel mit
+  osztályoz, új osztályozás, utána csökkentett határérték.
+- SAM :: Spectral Angle Mapper Spektrális szög osztályozó Band j és
+  szögeltérést húzok be az egyes sávnál Egyes sávok szögértékei. Multi
+  és hiperspektrális felvételeknél. Minél magasabb dimenzó, több
+  spektrális sáv, az adott egyenes meghatározza az
+  osztályt. Határértéken belül a szög, oda sorol. Gyakorlaton még nem
+  volt, de ez is lesz.
+
+Jövő alkalommal (két hét múlva)
+
+* <2024-03-25 h> Innen csak gyak végén
+Osztályozott felvételek.
+
+xband rgba.
+
+Formátum konverzió mentés ideiglenes helyett fájlba.
+rgba a az a negyedik sáv.
+
+Tesztelés volt, spektrális szög és max valószínűség az órán.
+Spektrális szögre medián szűrő ment. Vektorizálás.
+
+Legyártjuk a szelvényeket google earth könyvtárban png tile szomszédos tile.
+
+Open layer, leaflet, google maps. Google térképen eredményünket. Google Earth-höz
+csináljon egy áttekintőt.
+
+Bármilyen tréképre ráteszi az ereményünket.
+
+A szelvényeket a megadott nagyítási szintre teszi. A megfelelő nagyításban pszeudomerkátor.
+
+RGBA-T a QGIS csinálta egy pluginnal.
+
+Palettás eredményt -> három sávosra. xpandrgb paranccsal.
+Átalakított palettát. gdaltotilessal kitesz.
+
+Bővített beállításoknál KML generálás google earth programhoz. Másik mappába.
+
+Újramintavételezésnél fejlettebb a köbös. Szebb lesz a kép.
+
+doc.kml betölti a google arthbe.
+
+gdaltotiles különböző szoftverekbe!
+
+** Szünet
+
+** Corine
+Raszteres és vektors formában is elérhető
+
+A mi eredményünk elérhető.
+
+x meghajtó clc könyvtárába. clc2018 sopron
+
+raszteres clc.
+
+Külön legendet betöltünk. A jelrendszer alján stílusból az első.
+
+CLC2018
+
+Hisztogram 1–41-ig változó pixel értékek.
+0–20 osztály az osztályozotton.
+Első két osztályozáson a miénk.
+
+Ml 110_20
+
+Valahogy osztályoztuk, hogy a számjegyek melyik
+
+Fertő a corineban 41 water bodies,
+
+Osztályonként  Kinek hányadik osztály paletta segítr
+
+Mi osztályozásunkban és a corin osztályozásban is a fertő.
+
+Raszterkalkulátorba hoztuk össze.
+
+Lemaradtam, hogy hogyan csinálták. Mindkét osztályozásban nádast jelentőket színezi.
+Ami piros a corine alapján és a mi osztályozásunk alapján is nádas.
+
+A 3500-al kezdődő az mind nádas, de nálunk nem az. Átszínezgettek.
+
+Jobb klikk és szín módosítása egyszerre többet!
+
+35-14nádas.
+
+Minden ami átalakult. Raszter információ.
+
+Kikereesi a megfelelő információt.
+
+** Területi statisztika
+Hány pixel és hány m^2
+
+10*10m terstatisztika változás térkép.
+
+Fertő esetében 41-17 mennyi pixel.
+
+Jelentés az egyedi értékekről táblázatba is
+
+Feldolgozási eszköztár raszter egyedi értékei raszter jelentés
+html-be kiírja.
+
+Ctr-Alt T-re jön a feldolgozás eszköztár
+
+RAszter analízis
+
+Eredmény összevetése másik raszter.
+
+Más kategória.
+
+Befejezett osztályozás. Szelvényezés paranccsal térképi szolgáltatók alá áttettük
+a szelvényezés paranccsal.
+
+Osztályozás eredményét összehasonlítottuk a corine 2018-as térképével.
+
+raszteres változásával. Alapvető elemzéseket csináltunk.
+
+Hamarosan mindenkinek ugyan azon a területen, ahol első feladat.
+Sentinel 2-terület letöltése osztályozás, amit meg kell csinálni.
+
+Google Earthben az előző feladattal összehasonlítani. Lombos erdő, fenyő erdő.
+Sentinel 2 felvétel kivágaton megcsinálni.
+
+Géza TopoXmap-et javasolja. Ha van rá igény megnézhetjük a QGIS SCP plugin. Kacifántosabb,
+mint TopoXmap, azzal érdemes az osztályozás. Ugyan az aterület vizuális interpretáció
+és digit képfeldolgozás.
+
+* <2024-04-08 h>
+Régen találkoztunk
+
+** Spectral Angle Mapper
+
+Spectral Angle Mapper (SAM) nél hagytuk abba.
+
+Ez az osztályozó a spetrális térben számolja az azdott pixelnek és a
+referenciának a szögét. Ennek a szögnek kell egy bizonyos tolerancián belül
+lennie, hogy egy osztálba. Inkább hiper spektrális, minél több dimenzióban
+van szög, annál nagyobb megbízhatóságl
+
+Egyenlet, ahol r a reference és t a spektrális
+
+arccos ( \sum r * t / (srt(r^2) * \srt(r^2)
+
+** Hierarchikus osztáyozás
+Szakértői osztályozó rensezr
+
+- Kiküszöbölö kulcsok, egyszerű kérdésekre szabályrendszer kialakítása.
+- Osztályozási fa (Decision Tree)
+
+Milyen részletességig megyünk le. Az osztályzás lépései megérthetők.
+
+** Textúrális osztályozók
+Ha a felbontás növekszik, az egyes osztályozók nem lesznek hatékonyak.
+
+Nem csak a pixelt, hanem annak környezetét is figyelembe vesszük.
+5 m-es pixelnél már megjelenik a jellemző érdekes textúra.
+
+Szűrőkkel számszerűsíthető:
+- szórás
+
+** Szegmentálás
+A felbontás még tovább nő. Textúrális osztályozók nem hatékonyak.
+7x7 7x9-es szűrőknél már nem hatékony.
+
+Javasolt a szegmens alapú képosztályozás. Szegmentálás a képi tartalom alapján (részekre osztáls)
+Ezeket a szegmenseket osztályozzzuk le.
+
+Minta egy VHR űrfelvétel. Különböző szürkeárnyalatok jelennek
+meg. Nagyobb egységeket veszünk figyelebe, a kisebbekkel nem
+foglalkozunk. Heterogenitás megengedett a szegmensen belül. Nem
+veszünk el a részletekben.
+
+A legismertebb az eCognition szoftver. Orvosi képfeldolgozásból jött.
+Nagyon sikeres lett a geoinformatikában. A Trimble cégcsoporthoz tartozik, gyakorlaton
+megismerkjük.
+
+60 cm felbontású VHR űrfelvétel.
+- szegmentálás P(pánkromatikus) alapján
+- osztályozás szabálok alapján.
+
+Alapvető szabály az szegens, ekkora a léptéktényező. A képen egy minta szegmens. Az ültetvény
+egy fája. Megvan a szegmens világos fa csúcsa, fénykorona.
+
+eCognition nagy sikere az úgy nevezett hierarchikus szegmentáláson alapszik. Ez alapján
+nagyon hatékonyan tudunk dolgozni, különböző léptékeket tudunk összehasonlítani. .
+
+Szegmentálás P+MS (pan és multispek) alapján.
+
+Osztályozsá: spektrális jegyek és gyermek objektumok alapján. Alapvetően erdővel lehet hasonló
+spektrális tulajdonság. A facsúcsok viszont nincsenek csak az erdőben. A szegmens alatti és
+fölötti szinten vizsgálaj.
+
+Újabb multispektrális. Hansági kép minta. A szegmentálás nogyon
+korzserű módját biztosítja az eCognition. Ma már sok szoftver, de még ez mindig nagyon jó.
+
+** Szegmentálás DT Map alatt
+- Lentről felfelé (bottom up)
+- szegmensek növelése
+- Hasonlósági tényező < S léptékérték
+
+Minden kiindulási pixelből növelem, amíg a feltételek nem teljesülnek. A másiknál a képből
+indulunk. Amíg nem teljesünek a felvételek.
+
+Fertőrákos ortofotó. Szegmentált 40-es tényezővel, majd 160-as léptéktényezővel. Befolyásolja,
+hogy mekkora szegmensek. Azután ezeket osztályba soroljuk. Eredmény utána összevont néhányat.
+
+** Szubpixel-alapú osztályozás
+Csökkentem a felbontást, nagyobb cellamérettel dolgozunk. Lényege egy
+pixelt nem egy kategóriába sorolok, hanem %-osan megmondom, hogy mekkora területrészt alkalmaz.
+
+3 célkategória:
+- Mesterséges,
+- Növényzet,
+- Talaj kategória.
+
+Három alap (RGB) színnel megjelenítve.
+
+3 célkategória min 4 spektrális sáv. (n+1 sáv) spektrális szétkeverés. Adott pixel a három
+másik aránya alapján állítom elő. A pixelen belül a célkategóriák mekkora részt képviselnek
+talaj, növényzet, mesterséges felszín. Egy háromszög diagram részeit mutatja.
+Mellette a kép.
+
+- szélső v. célkategóriák
+- spektrális szétkeversél
+
+** Osztályozás típusai összefoglalás
+*** oszt egysége
+- szub-pixel
+- pixel
+- fogkális
+- szegmens
+- ref. fektor (köv )
+
+*** -osztályozók
+neurális
+
+** Minimum
+- képosztőlyozás meghatározása
+  folyamatos pixel értékből diszkrét kategória
+- Osztályozsá alapegységei a fenti.
+
+* Utófeldolgozás (képfeldolgozás negyedik lépése)
+- A képfeldolgozás eredményeinek kiértékelése, valamint geinformatikai
+  renszerbe integrálása.
+
+Post processing
+
+- Osztályozs eredményeinek értékelése
+  - hibamátrixok, hibatérképek sokszor külön környezetben vannak a
+    referencia adatok, áttérni egyik renszerből másikba
+- Oszt eredményeinek geonformatikai renszerbe integrálása
+
+** Osztályozás pontossági vizsgálata
+Teszt terüoetek osztályozása (tanítóterület vs. teszt területek)
+
+- Referencia teszt-területek osztályozásávak készül
+- Hibamátrix - terület-kimutatás
+- Hiba térkép- térképi megjelenítés
+
+** Példa hiba mátrixra
+Akác az akác osztályban, stb. Százalékos (területkimutatás)
+
+Akkor tökéletes, ahol 100% jelenik meg. Erdőterületek esetében átlagos osztályozási pnotssága
+72.81%.
+
+Hibamátrix széles körben használható. Lesz egy átlagos osztályozási pontosság, nagyon
+informatív, hogy milyen irányba téveszt az osztályozó. Hibák előfordulása és iránya is
+benne. Informatív hibaméátrix és sokféle módon összesítések.
+
+Itt függőlegesen jelenik meg a 100%. Vízszintesen nem jön ki a 100%, akác osztály eredményeinek
+bizonyos %-ai. Területi kimutatások különbözőek lehetnek. sor-oszlop és mihez viszonyítjuk
+az egyes értékekeket.
+
+- Producer accuracy (előállítói pontosság)
+- User accuracy (felhasználói pontosság)
+Én vagy a felhasználó mit tud a pontosságról. Ebből kihozható az overall accuracy.
+
+Fontos, hogy gyakorlaton megnézzük. Pontossági vizsgálatok kiemelt jelentőségűek. Objektíven
+meg tudjuk határozni, hogy mi milyen eredményűként adódjon.
+
+** Hibatérkép
+Ugyan azt mutatja, mint a hibamátrix, de nem annyi kategória. a mnta 2*2-es hiba.
+
+Mivels sok kategória egy-egy párt szoktak inkább kiemelni. Hibatérképen 16 színnél ne legyen
+több. Kiemelten az egyezéseket, vagy hibákat jelenítjük meg.
+
+** Átalakulási mátrix és átalakulási térkép
+Két külön időpontban, hasonlóak, mint a fentiek. 1. időpontban ilyen
+volt, 2. időpontban ilyen lett. Akác maradt akác, a maradék mivé
+alakult. Miből, mi lett. Nem egy időpontot, több időontot nézünk.
+- hibamátrix -> átalakulási mátrix
+- hibatérkép -> átalakulási térkép
+
+Több időont közötti változás.
+
+** Osztályozás eredményének GIS-be tétele
+Tematikus raszteres fedvény GIS renszerben. A razsteres fedvényt
+vektoros fedvénnyé alakítjuk. Vektor alapú elemzések.
+
+Tematikus raszteres fedvény. Három osztályban a Landat. pixel érétkek tematikus kódok.
+
+** Raszter -> vektor
+- Határvonalas
+- középvonalas vektorizálás
+Két cella közötti vektoros vonal. Valamilyen generalizálást kell
+csinálni, nem lépcsőzetes a vonal. Nagy a jelentősége az adatállomány méretének csökkentésében.
+Vektoros fedvényeken olyan elemzések, amit a raszteresen nem, vagy bonyolultan tudjuk.
+
+Gyakorlaton medián cut szűrő, de maradnak egy-egy pixelnyi
+kategóriák. Terület alapon ki tudom szárni. A nagyobb területő
+környezetéhez csatolja. Terület egyszerűen és könnyen elemezhető
+Szomszédsági viszonyok is egyszerűen.
+
+Osztályozás eredménye raszteresen és vektorosan is. Előnyei-hátrányai megvannak.
+Annak függvényében, hogy mi a cél.
+
+** Vektor alapú elemzések
+Osztályozáshoz tartozik, de geoinformatikai környzetben végezzük, ide
+az utófeldolgozáshoz kerül.
+
+- Referencia vektoros térkép (kataszteri, erdő, de bármely). Azt vizsgáljuk, hogy
+  az adott poligon melyik osztályba sorolódik?
+- Eredeti melyikbe?
+
+Példa 1987 vs 199x spektrálisan is összeveti. Nem eloszlási diagramon ábrázolom, hanem
+szóródási diagramon.
+
+Spektrális erdőrészelt. Ha több időpontú felvételt vizsgálunk, nagyobb
+megbízhatóságú osztályozás. 30 éves LF átfed a 100 éves B-el. Ha külön időben vizsgálom,
+jól elkülöníthetem.
+
+Itt az egész erdőrészletet vizsgálom és szeretném kategóriába sorolni. Nagyon jl be tudjuk
+sorolni, hogy az adott erdőrészlet, melyik évszám időpontban.
+
+Legfrissebb beavatkozások. Lilánál az erdő. Vektoros térkép segítségével az osztályozott
+felvétel előállítása.
+
+Nagy a jelentősége, nem a helyrajzi szám változásait nézzük, hanem
+melyik kategóriába sorolódik be.
+
+Vektoros referencia térkép osztályozó itt is előkerül, mint a szubpixel. Az adott erdőrészleten
+belül, milyen az osztályok súly aránya. Azon erdőrészlet 20%-a még idős erdő,
+60%-a vágásterület. 30%-a fiatal erdő. Referencia vektoron belül határozzuk meg az arányokat.
+
+** Minimum
+- Hibamátrix meghatározása :: ismert tesztterületek osztályozásával
+  előállított területkimutatás
+- Vektor-alapú elemzések :: referencia vektoros térkép, ezt fogjuk
+  besorolni az adott osztályba. Vektoros poligonok az osztályozás alapegységei.
+
+* Távérzékelés alkalmazások
+Milyen távérzékelési alkalmazásokkal találkozhatunk? Ezeket a mindennapokban hogyan?
+
+** Corine Land Cover (CLC)
+CORINE = Coordination of Information on the Enviroment
+
+- Land Cover -felszínborítás
+- Az EU által a 80-as években indított projekt.
+- Olyan népszerű, hogy 28 ország 1998-ban 4.4 mio km^2 Jelentős
+  felszínbortási térképezés. Távérzékelés nagy jelentősége
+
+*** Célkitűzés
+Kvantitatyv, megbízható, összehasonlítahtó felszínborítási információ
+Eu területre, környezeti politika kialakítása.
+
+Alkalmazási lehetőége:
+- környezeti folyamtok modellezés
+- regionális terv
+- tájgazdálkodás
+- vidékfejlesztés
+- és sok más!
+
+*** Technikai jellemzők
+Alapvetően mind a mai napig, űrfelvételek vizuális interpretációjával (foto...)
+Az 1990-es évek elején Landsat TM űrfelvételek kinyomtatva egy bizonyos méretarányba.
+Színkonpozit, fóliával húzott kategóriák, utána ezt vektorizálták, vektoros adatbázis!
+A kezdetek kezdetén! Heterogén rendszer, a digitális képeket kinyomtatták.
+
+4-5-3 kompozitot a vegetáció, fólia szkennelve a végén.
+
+*** CLC nomenklatúra 1. szint
+Hierachikus renszer
+
+1. Mesterséges felszínek
+2. Mg ter
+3. Erdők és természetközeli
+4. vizenyős területek
+5. vizek
+
+Ez a legfelső szint. Osztályozásnál is jól használható. Régóta, több
+mint 30 éve kidolgozott, változatlan.
+Jelenleg Eu szinten a 3. hierachikus szintig egységes.
+
+- 3 erdők és természetközeli területek
+  - 3.1 erdők
+    - 3.1.1. lomb
+    - 3.1.2 tűlevelű
+    - 3.1.3 vegyes
+  - 3.2 Cerjés
+  - 3.3 növ nélküi, kevés növényzettel fedett nyítl.
+
+Egységes, vannako olyan kategóriák, amik nálunk nem! Az összes lehetséges EU kategória.
+
+*** Mintakulcsok
+Részetes mintakulcsok kidolgozva. Jól dokumentált projekt.
+Definíció és mintakép. Minta poligonok, sárga színnel.
+
+Első generáció fólián, utána arcview alatt magyar fejlesztésű inter-view csomaggal.
+
+Részletes online és offline kiadvány. Sokat lehet találni.
+
+Az egész Corine programban Mo. nagyon aktív szerepet játszott. FÖMI
+egy saját osztálya ezzel a Corine felszínborítással és EU koordinálása.
+Büttner György EU szinten koordinálta.
+
+*** CLC szntek 1.
+
+**** CLC 100
+- 1:100 000
+- Landsat TM
+- 1990-92 felvétel
+- mint ter. 25 ha (MMU)
+- min szélesség 100 m
+- EU nomenklatúra 3. szint
+
+Ma CLC100 (esetleg évszámból CLC90 VAGY CLC 92
+  
+**** CLC50
+Csak magyarországra készült. EU-s szinten nem készült. Magyar javaslat volt.
+- 1: 50 000
+- Spot-4
+- 1998-99
+- mint ter 4 ha
+- 50 m minimum szélesség
+- hazai nomenklatúra 5. szint
+Csak hazánkra érvényes, ausztria bizonyos tartományai és egy-két ország.
+Spot 4 első felvétele gemenc! Spot4 felvétel promótálása is Magyar szerep!
+
+Mind a mai napig a CLC50 az egyik legrészletesebb egységes felszínborítási adatbázis.
+
+Jövő órán innen folytatjuk.
+
+* <2024-04-08 h> Gyak
+KÉposztályozás, Sokat késtem.
+
+Google Earth Engine
+
+** SCP QGIS modul
+SCP semi-automatic classification plugin
+
+Lapos tanulási görbe, de ingyenes
+
+Modulok között bekapcsolva!
+Nézet, patanelek, scp doc
+
+Alapfelületen jobb kliik
+
+SCP User Manual.
+
+Doksi:
+4. Brief introduction
+   4.4 land-cover classification
+   Accuracy Assesment
+
+Congalton and Green 2009
+
+Pontosságvizsgálat bibliája.
+
+Ugyanannyi kategória ahány osztály
+
+|         | ground truht 1 | ground truht 2 |
+|---------+----------------+----------------|
+| class 1 |                |                |
+| class 2 |                |                |
+
+Képlet ott
+
+Az adatokat osztom a teljes területtel helyes terület osztva!
+
+\sum a_{ii} / n
+
+Átló a teljes területtel. Ez az OA overall accuracy.
+
+UA sorokon belül a ténylegesen beosztályozott a teljes
+
+user
+UA = az átló értéke osztva a sor összegével
+
+Producer accuracy
+PA = átló össze osztva oszloppal
+
+** TopoXmap
+Osztályozásunk végleges változata.
+
+ML 110, max valószínűség -110
+
+Táblázuat terület.
+
+Csak az egészet tudjuk kimásolni.
+
+m^2-részt vmásoljuk le. Excel táblába tegyük be.
+
+Tizedes vessző cseréje.
+
+Egy táblázatot kellene csinálni.
+
+Sorok végén, oszlopok végén összesítés.
+
+Nem feltétlenül akkora az összes terület. Digiterrából kimásolható a tábla a
+
+Számoljuk az overall accuracy-t.
+
+** Excel
+
+Kiszámoltuk a területek alapján a fenti errororkat.
+
+Comission error
+
+Producer Accuracy
+
+Megcsináljuk azokat az osztályozásokat. Omission erorr producer accuratcy.
+
+* <2024-04-15 h> Ea CLC
+172.4.27.253
+
+** Házi
+*** Google Earth
+Amit lementünk, azt ne üresen küldjük el.
+
+A második feladattal még senki sem foglalkozott. Két hét múlva leadás.
+
+** CLC50
+Magyar sajátosság. Legrészletesebb felszínborítási térkép Mo területéről.
+
+Utána 2000- kialakult módszertan, ami nem változik utána.
+
+6 évente készültek
+
+** CLC2000
+- Landsat 7 ETM+
+- 2000 +-1év
+- Egy időpontú felvételek!
+- 100-es lépték
+- 25 ha min terület
+- 100 ha min szélesség
+- Felszínborítás
+- Felszínborítás változás ezt vezették be. Geometrilailag jobb
+  űrfelvétel, változást külön térképezve a geometriai pontatlanságból adódó változások elkerülhetők.
+  Szilánk polygon, amikor arréb megy a poligon.
+  LCC(1990-2000) 90-re is pontosabb adatot kapunk.
+  EEA felügyeli. Sok technikai trükk és buktató a kivonásban.
+
+** CLC2006
+SPOT 4–5, IRS-P6
+- 2006 +-1 év
+- Két időpontú felvétel
+- többi változatlan.
+
+** CLC2012
+- IRS, Spot 4-5, RapidEye
+- 2011-2012
+
+** CLC 2018
+Sentinel 2-is
+
+** CLC 2024
+Reméljük lesz.
+
+** Ált
+Svájc és Norvégia is megcsinálta, balkáni államok és Törökország is.
+
+Jó erurópai adatbázis. Széleskörűen felahsználják.
+
+Lechner és EEA honlapján is elérhetők a további információk.
+
+** CLC mellet még nagy felb felszínborítás rétegek HRL
+High Resolution Layer
+
+CLC teljes területet lefedő (faltól falig) Nagyfelbontásúak tematikusak.
+
+- Mesterséges felszínek (vízzárási arány, Imperviousness Degree, IMD 1-100
+  térháló és aszfalt. 2006, 2009, 2012...
+- Erdős területek Lombságor záródás (Tree Cveer Density TCD) Erdőtípus
+  (Forest Type, FTY) adatbázisok.
+- Füves terüetek (Permanent Garsland, PNG) a legkritikusabb gyepet jól
+  elkülöníteni mg-től nagy kihívás több időpontú felvétel.
+- Vizenyős területek (Wetland WET)
+- Állandó vízfelületek (Permanent Water Bodies,
+
+Automata osztályozás csak ezeket mutatja. Nagy területre.
+
+** NÖSZTÉP
+Nemzeti Ökoszisztéma Alaptérkép
+
+Komoly projekt.
+
+Olyan alaptérkép, a Corin és bizonyos tekintetben nagyfelbontűsú
+rétekegek. A kettő ötvözésével.  Ez az alaptérkép ingyen
+letölthető. Elég jól dokumentált adatbázis. Gyakorlaton nézzük.
+
+ÖBKI koordinálta, Lechner segítette az alapadatokkal. Európai szinten
+is jelentős fegyvertény.
+
+** MEPAR
+- Mezőgazdasági parcella azonosító renszer. Agrártámogatosk eljárásainak
+  kizárlagos országos földterület-azonosító renszere.
+- Fizkai blokk :: ez az alapja, mit nevezünk? Térképen piros vonal a
+  határa. A fizikai blokk olyan határok, amelyek a terepen is
+  láthatóak és a távérzékelt felvételen is látható. Út, árok, patak,
+  töltés határolja. Terepen is és távérzékelt felvételen is! Belül
+  elkülöníthetik a nem támogatható területeket.
+- Mezőgazdasági tábla/parcella
+
+Eléggé sokat fejlesztettek. Talán érdemes elmondani, hogy MEPAR
+alapjaiban a DigiTerra cégnek nagy jelentősége van. FÖMI égisze alatt
+kezdték fejleszteni. Majd kivált a MEPAR vonal. Jelenleg az
+Államkincstár felügyeli, aki az EU-s pénzeket felügyeli.
+
+Tulajdonos a kézzel rajzolt vázlaton bejelölheti, hogy a terüeten
+milyen támogatható kutúrát művel. Nem támogatható területek jócskán
+vannak. Út menti árok, erdős területek.
+
+Benyújtott EU-s támogatási igény jogosult-e annak az első szintű
+ellenőrzése távérzékeléssel történik. Az adott gazdálkodó azt
+csinálta-e. Első színtű ellenőrzésen valaki megbukik, akkor a
+helyszínen is ellenőrzik.
+
+Integrált Igazdgatási és Ellenőrzési Rendszer (IIER)
+Minimum 5% ellenőrzése!
+
+Rossz példa a Fertő, ahol nádgazdálkodásra évekig felvették a
+támogatást.
+
+https://www.mepar.hu/mepar
+
+Tulajdonosok eléggé féltik.
+
+Lechner oldalán láthatjuk. Piros fizikai blokkok határa. Nem
+támogatható területek sraffozottak.
+
+Elég drága a MEPAR. WMS-ként lehet előfizetni rá.
+1 blokk 3600 Ft/db.
+
+Jelentős fejlesztések, hogy mik a nem támogatható területek. 12% és
+vízerózió, 17% meredekebb
+
+Nem teszik közkinccsé és nagyon drága. GAzdának is meg kell venni a
+saját fizikai blokkjait.
+
+http://mepar.magyarállamkincstar.gov.hu
+
+Jó leírás a renszerről. Érdemes megnézni. Fellhasználói
+kézikönyv. Fizikai blokkban keresni. Utána a támogatási igényeket bejelenteni.
+
+Nem rossz rendszer. Magyarországon az országos légifényképezések
+nyáron, hogy a MEPAR céljaira felhasználhatók
+legyenek. Felszínborítottságot értékeljék. Magyar sajátság. Egyrészt a
+MEPAR finanszírozza a nemzeti légifényképezést, Állami alapfeledat és
+utána meg kell venni a fényképeket, ortofotót.
+
+** Lechner
+Felszínborítás a Téradatokból, amit korábban beszéltünk. Copernicus és adatbázisok részletes
+ismertetése. Adatbázisok letöltésére ki kell tölteni és mire használjuk. CLC2018
+
+nEMZETI NAGYFELBONTÁSÚ KORIN  a CLC50
+
+Nagyfelbontású rétegek, amiról volt szó.
+
+Urban atlas. Nagyobb városok változása.
+Folyómenti és Natura 2000 területek.
+
+Komponensek részletes leírása. Hogyan készültek. Lokális
+komponensek. Részletes ismertető.
+
+** Gyakorlatok szervezése
+Fogunk foglalkozni az ecognitionnal. Infromatika reakció ideje miatt lehet gyorsabb
+lenne saját gépre feltenni.
+
+Jövő hét hétfői gyakorlatra sagát gép.
+
+eCognition Free trial version. Trimble geospatial.
+
+Ingyen le lehet tölteni. Korlátozott képméret, nem lehet menteni. A szoftver dolgait
+meg lehet ismerni. Szegmens alapú képfeldolgozás.
+
+Végig tudjuk vinni, de sem a feldolgozást, sem az eredményeket nem tudjuk menteni.
+
+Teljes verzióból lementettet sem lehet megnyitni. Óra előtt az anyagokat megosztja, hogy
+le lehessen tölteni.
+
+** CLC összefoglalásas
+Léptékkel kapcsolatban egységes. 25 ha és 100 m széles.
+
+Nomenklatúra a 3. szintig egységes nomenklatúra.
+
+Módszertan a vizuális interpretáció fontos! Végig. Nagyon nagy a jelentősége.
+** Minimum
+- CORIN első szintjén a főkategóriák
+  - mesterséges felszín
+  - mg
+  - erdők
+  - vizenyős és vizes
+
+EEA-nál néztük a térképeket
+
+https://land.copernicus.eu/en/products/corine-land-cover
+
+6 évente, változás térképek. WMS szolgáltatásként is elérhető.
+
+Nézegettük a fenti copernicust. Nagyon sok.
+EU-Hydro is van itt! Gyakorlaton is foglalkozunk majd velük.
+
+Van-e kérdés?
+
+* <2024-04-15 h> Gyak
+14–14:30 kényszerszünet lesz.
+
+** CLC
+Átmásoltam Benedikti Danitól.
+
+** HRL
+X meghajtó HRL mappa.
+
+Először a DLT2015t adjuk hozzá
+
+Nem csak magyarország
+1. broaddleaved
+2. CONIFEROUS
+
+HRL digitális képfeldogozás eredmé
+
+Szűrés, csak az erdőket szeretnénk.
+Első két számjegy = 31
+
+Left("CODE_12",2) = '31"
+
+fontos a szöveges függvény
+
+Nem ment a fenti.
+
+Jobbklikk szűrésbe kell feíírni a kettőt.
+
+HRL dlt = Dominant Leaf Type
+
+FTY A FOREST TYPE.
+
+FADSL = Forest additional Suppor Layer Urban use!
+
+További nincs adat = 0, akkor átlátszóvá teszi.
+
+*** plough
+Plough palettás egyedi érték.
+
+xml-ben leírások. "-"-al letörlöm a 0 és 255 értékeket.
+
+*** IMD
+imperviousnes
+
+*** pwb
+itt is nulla átlászót
+
+*** Tree cover density
+TCD milyen sűrű az erdő
+
+*** WAW
+
+xml doksikban lehet látni a részletes leírást.
+
+** nösztép
+x nösztép ösz alapv4 tif 48 mb körül
+
+Szétcsúszott kategória 3 erdő és természet más!
+Várkerület, vasút beleégetve.
+
+Térkép alapú és távérzékelés alapú tematikus részek.
+
+Nagy munka. Már aktualizálás v2 változatot mondják.
+
+20m-es pixelméret ez is! Távérzékelés és térkép alapú dolgok.
+
+pdf dokumentációk. Validáció. Ingyenesen letölthető!!!!
+
+** öSSZEFOGLALÁS
+CLC, hrl és nösztép átgaloppozása.
+
+CLC távérzékelésben fontos alaptérkép, európai szinten.
+
+Akár a feladat, akár osztályzás, vizuális interpretációnál is jól jöhet.
+Egyéb felszínborítási adatokat megnézni. Amit gyepnek mondunk, vagy más szántó!
+
+Érdemes több forrást, adatbázist megnéznie. Összevetés más adatbázissal.
+Van olyan, ahol miénk mérvadó, de lehetm mást is értelmezünk.
+
+* <2024-04-22 h>
+
+eCognition. Hosszabban tartottam az órám, viszonylag későn értünk be.
+
+Máté mutatta, hogy a jobb felső sarokban hozzáadta a process treeket,
+Segmentation kétszer
+- 8000 és
+- 4000 segmentation parameters.
+
+Select sample
+
+Cseréptető az aktív class.
+
+Lapostető class. Kiválaszotttuk.
+
+Hierarchikus osztályozást hoztak létre.
+
+Napos burkolatokat adtak meg először.
+
+Lombos és tűlevelű egyedek. Árnyékos és napos szegmens.
+
+Korai felvételt használnak. Tűlevelű egyedek, mert a lombosok még jellemzően
+nem hajtottak ki.
+
+** Réteget kikapcsolták
+Vannak mintáink és a következő az osztályozás.
+
+Osztályozás előtt enné a szoftvernél a legközelebbi szomszéd
+osztályozót használjuk. Classification ->  edit -> standart nearest neighbour.
+
+Image layer -> Mean -> layer 1,2,3.
+
+Create new arithmetic feature.
+
+NGVI - normalised green vegetation index. Közeli infra helyett zöld.
+
+NGVI = (G-R)/(G+R) ha nincs ez is használható NIR helyettesítésével.
+
+Image layer az átlagból.
+
+(Layer2 - Layer1) / (layer2 + layer1)
+
+Minden objektumra kiszámolja. Ha megvan, akkor OK.
+
+Átlag és NGVI kijelölve
+
+Classification -> Nearest neighbour, az összes osztályra kiválasztva.
+
+Utána object informationnál kiírja, hogy melyik osztályhoz tartozik?
+
+** Osztályozás lefuttatása
+Jobb klikk új process. Classification. Az összes osztályt kijelölni.
+
+A domainnél a current iage object level.
+
+Megcsinálta.
+
+- Kellenek samplek
+- standard nearest neigh, feature space.
+
+Sokaknak nem megy valami!
+
+** Újabb algoritmus
+A process tree edit process.
+
+Új classification, kiválasztani az új szintet.
+
+Assign class. az algoritm lenyíló listából.
+
+Unclassified a use classnál.
+
+Executeval a másikat kapcsoljuk be.
+
+Valami gond van.
+
+Egyéb osztályozóval az épületeket próbáljuk.
+
+use classnál from features, ott sub object!
+
+Relation to objekt csoportban majority vote-area, ott 1-est beírni.
+
+New level szinten is leosztályozza az objektumokat.
+
+** Magasabb szinten
+Magasabb szintő szegmenseket oda teszik, ahol a magasabb szinten az osztály.
+Gyermek objektumok szintjén osztályozzuk be, ahol nagyobb a területe az adott
+osztályoknak.
+
+** Pontfelhő bevonása az osztályozásba
+Addig eljutni, ameddig eljutunk. Jövú órán pontfelhőt is bevonjuk.
+
+* HÁziról
+Landsatot is mondott.
+Jó űrfelvétel
+
+Sentinel2 60 méteres kivételével mind.
+
+Kivágatokat érdemes megcsinálni. Virtuális raszternél nem megy a külön
+
+4 10-m-es, 6 20-m topoXmap külön kezeli a felbontásokat.
+
+Szkriptnél behelyettesíteni, azonosítót beírni, amit órán csináltak.
+
+Elsőnek képeket behozó szkript. kiválasztott praméterek, onnan képet.
+Kép Id másik szkriptet, bemásolva.
+
+Azonosítók a Sentinelnél is globálisak.
+
+10*10 km. Script valakinél.
