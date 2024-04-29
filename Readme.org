@@ -4640,3 +4640,110 @@ Tételben a dőltel szedett a minimum kérdés.
 Nincs Teams csoport. Neptunon is átmegy a tételsor.
 
 Májusban vizsga, hogy tudjanak menni gyakorlatra. Hétfői vizsganap.
+
+* <2024-04-29 h> Gyak
+eCognition folytatása. Megint órát tartottam.
+
+Egy csomót csináltak.
+** Tanító területek
+
+** Magasság
+Ennek a végére értem.
+Magas és alacsony, többit a talajszintbe.
+
+Más feltétel nem kellett.
+
+**
+Tiszta lap.
+Új projekthez ortofoto hozzáadása.
+
+Rétegeit át kell írni RGB a layer
+
+4 réteg és + NDSM
+
+VALAMI LEHALT
+
+Orto, NDSM. Ez utóbbi fent van a teamsen.
+
+Insert child process, multi res. segmentation.
+
+Scale parameter:
+40-40-03 
+
+NDSM40 a level name.
+
+Többihez lehet nullát kellene írni.
+
+Újra:
+4000 parameter, 02. shape, name: L4000
+
+NDSM 200-al szorozható, hogy hasonló legyen.
+
+Túl nagy a 4000 lépték. Nézzük meg 2000-rel. Alakul, de nem az igazi.
+Letörli a szintet.
+
+L1000 és 0.3 a shape. Elfogadjuk felső szintnek.
+
+Duplikátumot csináljunk.
+
+** NGVI
+Image leayer mean a meaneket venni minden sávban.
+
+NGVI-T számolunk
+
+G = mean green layer, stb.
+(G-R)/(G+R)
+
+Rögtön végleges osztályok:
+- tégla tető
+- lapos tető
+- burkolt
+- fák
+- gyep
+
+Dupla kattal select sample.
+  
+Fölső szinten L1000 válasszuk ki a tanító területeket.
+
+burkolt árnyékos és napos
+
+Classification nearest neighbour. Milyen tulajdonságokat használjon
+a tanítóterületekből.
+
+NGVI, mean DSM, rgb is kell!
+
+Világosságot is figyelembe lehet venni.
+
+Customise-ban csináltuk, objektum átlagos vegetációs indexét!
+
+Következő classification apply standard near. neigh. to classes.
+
+Classification, class filter none, active classes...
+
+OK, execute.
+
+Kiválasztot objektumnál delete class.
+
+Select samplesnél dupla klikkel eltávolítom és hozzáadok másikat.
+
+Új classification és újra osztályozás! Végén class color.
+
+Még lehet külön olyan. Objektum magasságot megnézni.
+
+*** Manuálisan kiveszem a burkoltból a zöldterületet.
+Assign class. Kiválasztom burkoltat.
+
+Nem értjük, hogy az nDSM alapján miért nem ment jól minden osztályozása.
+El lehet menni hierarchikus irányba. Ha magas és zöld fa, ha magas és nem zöld,
+akkor épület, ha alacsony és zöld gyep, stb.
+
+Eredmény shp-ba kiexportálható. RAszterba is.
+
+Új processzt hozzáadunk, a végén van reshaping.
+Reshaping a poligonok éleit javítsa.
+
+A végé  deep learning CNN alapján is tud osztályozni. A legvégén
+export. Ott lehet kiexportálni az osztályozást.
+
+multi-resolution segmentation hatákony eljárás, néha kifagy, nem mentjük...
+Egy eljárás lementhető, az megy a többi felvételnél. Sajnos ez trial version.
