@@ -4417,3 +4417,226 @@ Kép Id másik szkriptet, bemásolva.
 Azonosítók a Sentinelnél is globálisak.
 
 10*10 km. Script valakinél.
+
+* <2024-04-29 h> FIR
+Földmegfigyelési Informáciüs Redszer
+
+Giga projekt lett végül.
+
+Köfop (Közigazgatás Fejlesztése) projekt keretében. Célja az ESA
+Sentinel adatok archiválása és magyar adatok elérhetősége. E miatt
+közigazgatás, annak digitalizációja a hivatalos köntös.
+
+2016 előkészítés. 7.35 md. 2022 ápr 30-án zárult, de máig is vannak nem egészen
+jól máködő elemek.
+
+Copernikus felvételek nemzeti archívumba. ESA elkészíti a
+felvételeket, de nincs elegendő tárolási kapacitás. Rolling archive. A régebbi felvételek
+archívumba kerülnek. Megigényelhetők a régiek (vagy fölkerül, vagy nem).
+
+Támogatja a nemzeti törekvéseekt, nemzeti archívumok. Ez a
+legfontosabb. Magyarország, Kárpát.medene.  Sentinel 1–3 és 5 is.
+
+** Részei
+FOK = Földmegfigyelési Operatív Központ (Lechner Budafoki út)
+Operatív. Standard eljárásokkal feldolgoz.
+
+Közigazgatás ezért:
+- Lechner
+- eseti
+- BM OKF
+- BM OVF stb.
+
+Közigazgatási szereplőknél hol segít.
+
+https://efold.gov.hu
+
+Földmegfigyelési Adatközpont = Szuperszámítógép 2PB és sok CPU és GPU
+Lechneer
+
+ŰMÉR űrfelvétel megrendelő rendszer. Közbeszerzési portálon kellene megrendelni.
+
+Mozgásvizsgálat jelentős és MEPAR ban is segít.
+
+Hazai KKV számára adatfeldoglozás "sandbox"-ok, de nem megy megfelelően.
+
+FIR API működik, de nem túl jól dokumentált.
+
+FOK backoffice rendszer mögötte
+
+nemzeti Copernius adatelérés
+
+Jogharmonizáció biztosítása. Űrfelvételek alapján kiderül szabálysértés, legyen
+lehetőség, hogy FIR alapján eljárást indítanak, vagy bírságolnak.
+
+2021 CXLIV tv. a Földmegfigyelési Információs Rendszerről. Még nem tud ez alapján
+bírságols.
+
+769/2021 FIR szóló tv. kereskedelmi űrfelvételek központosított közbeszerzéséről.
+
+** Lezárult feladatok
+KAK Hosting (Fehérvári út) védett helyen vasak
+1128 CPU, 2*5120 cuda GPU 8 e GB MEM
+2200 tb DISZK 4800 tb ARCHIVÁL
+
+*** Szoftver
+- Vmware, Kubernetes, Airflow, Docker, Git
+- kiszolgáló környezet standart nyílt forráskódú szofter.
+- sandbox, zárt rendszernek történt
+
+*** Elektronizált közig
+- eseti légtér kijelölése
+- távérzékelési engedély
+- előzeter szakhatósági állsfoglalás
+stb.
+
+*** FOK kialaktva
+hardware és software
+
+*** Jogszabályi környezet
+
+nem nyilvános kormányhatározát a működés finanszírozás support szerződés
+okt-dec a cég ellátta a supportot. Lemaradásban.
+
+** Elérhető
+Sávkombinációk és indexfelvételek.
+
+LAI becslés és sávkombináció indexek. Gyakorlaton volt.
+
+*** Hardver
+- Kommersz HPE cikkszámmal rendlekező elemekből.
+- korlátlanul bővíthető
+Georeduntdáns Két helyen.
+*** Szoftver
+- Python alapú programozási körnezet
+- feldoglozási alg elemi objektumokból felépített gráfok
+- "sandbox" környezet alg fejleszéts
+
+*** Közig
+verziózott algoritmusok
+
+Sentinel 2 processing baselin változott. FOK fél év múlva jött rá.
+
+Elérési út változott. 2–3 hónapig nem volt elérhető felvétel.
+
+Eseti légtér kijelölés nem ment.
+
+KAK = kormányzati adatközpont. NISZ üzemelteti.
+KIFÜ hardver üzemeltetés.
+
+FOK szerződés is sokat csúszott.
+
+Rudan Pál KIFÜ keretében vezette részben a projektet.
+
+* Másik előadás Erdészeti Monitoring Szakrendszer
+Szabó Márton a Csoki
+
+Szakrendszerei:
+- katasztrófa
+- vízügyi
+- erdészeti
+- általános
+- HM MH
+- ümér
+
+Ingyenes elérhetés, mindenkinek, de közig rendzserekben promótlált.
+
+** Sentinel generációk
+Kevés és késés van. Korlátozott rakéta kapacitás.
+
+Adatközpont, letölti adatokat, Operatív központ az operatív feladatok miatt.
+
+Felhasználási területek.
+
+Pl. Sentinel alapú belvíz térkép Sentilel radar alapú.
+
+Tőztérképek.
+
+Erdőknél biotikus és a biotikus károsítólk.  ERTI TEMRE
+alkalmazás. Korábban MODIS alapon. Most Sentinel alapján, orzságos
+távérzékelési lalapú.
+
+4 eljárás:
+- Erdő Igénybevétel :: építkezésnél, csere erdősítés a
+  kivitelezőnek. Sok beragadt igény a válság miatt. Beradadt igéynek
+  monitorozhatók.
+- Fahasznlatok :: Bonyolultabb helyzet véghasználat OK, közbülső nem mindig jól.
+- Erdőkár montioring :: szúkár könnyű, gyapja pille gradáció, de vannak amik alig.
+- Szabad rendelkezéső erdők nyilvátartásaba vétele :: rendes erdő és
+  mezőgazdasági terület között helyezkedik el. Erdő, de szabadabb szabályozás. Nincs
+  kapacitás a nyilvntartásra, FIR támogatja.
+
+** Erdészeti eljárások
+NDVI alapú és gépi tanulás tanító terület alapú.
+
+Szabadrendelkezésű erdők erdészueti nagytájanként feldolgozási egységek. Hasonl fafajok.
+
+Erdő osztályozás és tanító területek. Borszasztó egyenetlen tanító terület. Erdészeti
+szolgálat gond a megbízható tanító területekről. Országos osztályozott raszteres
+kép az eredmény. 19 fafajcsoport szintig mennek le. Ez a fontos termék. Sajnos
+problémák vannak vele.
+
+Felület a monitoring szakrendszernél hasonló a nyivános eföld portálhoz.
+
+Megvan a raszter és az adott HRSZ-re, erdőrészletre területi statisztika.
+Raszter statisztika a területre. Ostzályozott raszterek.
+
+Osztályozott raszter és üzemtervi adatok összehasonlítása.
+
+Soproni-hegység patakok mentén éger félre osztályozott. Kollégák doloznak az osztályozás
+javításán. Körülményes a rendszer. Tanító terület regisztrálás futtatás sok adminisztratív
+lépcső.
+
+** NDVI alapú feldolgozás
+Felvételek, heti és havi aggregációk.
+
+Közeli infra nagy jelentősége. Ha nem egészséges lecsökkent NIR visszaverődés.
+
+Tarvágás jó. Feújítás. NDVI lecsökken kicsit, nő a szórás és utána az is vissza.
+
+Erősen csökkenő területeket jól kimutatja. Erdőkár és falopás is
+lehet. Közepes és gyenge csökkenés. 2022 autusztusa erősen aszályos,
+nagyon sok probléma. Regenerálódás különböző.
+
+TAEG területén Intézet Sentinel monotorozó rendszert készített. Jó kapcsolat
+van visszajelzés (kőris pusztulás, EF gond) vannak téves riasztások, nem lejelentett
+fahasználat. KELL A VISSZAJELZÉS, akkor fejlődik a rendszer.
+
+Erdőterület igénybevétel Veszprém 6A részadatokat nyomtatott.
+Időpont felvételek. Osztott képernyő volt gyakorlaton.
+
+Korlátozott felvétel, tavaly tavasszal az ország területén nem volt felhőmentes
+felvétel. Vannak időszakok, amikor passzívan nem lehet letölteni.
+
+Sentinel 1 aktív műhöld. Felhőkön átlát. Jellemző erdő struktúra.
+
+** Összefoglalás
+FIR jelenleg sok nyögvenyelős dolog. Remélhetőleg lesz második felvonása!
+Fontos a szakma szempontjából. Minden archív felvétel elérhetők. FIR odlaon a legrégebbi is.
+
+Automatikus feldolgozás (ha jól megy) jó. Belvíz aszály radarinterfero fontosak!
+
+* Zárás
+Alapfogalmak és minimum kérdésekből ZH. Jövő vagy jövő utáni? 6 és 13-a. Jövő héten.
+
+** Tételsor áttekintése
+Tételben a dőltel szedett a minimum kérdés.
+ távérzékelés tágabb és zsőkebb
+- hullámegyenletek, feflektancia, hullámhossztartományok
+- digitális kép foglama és felbonásia helyigénye
+- 0D letapogató Landsat
+- Sentinel MSI felbotása
+- SAR meghatározás
+- LiDAR meghatározás
+- Lechenr TK, HM Zrínyi forgalamzott adatk
+- Vizuális interpretáció és méreelme
+- Geometriai és radiometrioai korrekciók
+- Vegetációs és egyéb indexek
+- osztályozás fogalma és lehetséges alapegyséei
+- hibatmárix, hibatérkép
+- Vektor alapú elemzések
+- CLC
+
+Nincs Teams csoport. Neptunon is átmegy a tételsor.
+
+Májusban vizsga, hogy tudjanak menni gyakorlatra. Hétfői vizsganap.
