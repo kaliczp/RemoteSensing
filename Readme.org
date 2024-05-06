@@ -9,7 +9,7 @@ Távérzékelés, angol remote sensingből minden nyelvbe.
 
 Táv és érzékelés távolról érintekzés nélkül.
 
-Olyan információgyűjtsi eljárás, ahol nem vagyunk közvetlen kapcsolatban a vizsgált objektummal.
+Olyan információgyűjtési eljárás, ahol nem vagyunk közvetlen kapcsolatban a vizsgált objektummal.
 
 Szükséges valami, ami továbbítja az információt = információ hordozó.
 
@@ -40,7 +40,9 @@ Szaglás egyáltalán nem képalkotó.
 ** Tágabb def
 Olyan információ-gyűjtsi eljárás, ahol nem vagyunk közvetlen kapcsolatban a vizsgált objektummal.
 
-Olyan információ-gyűjtsi eljárás, amely során a Földünkől, felszínéről az elektromágneses hullámok segítségével kapunk egységes adatrendszert.
+Olyan információ-gyűjtési eljárás, amely során a Földünkől, felszínéről
+az elektromágneses hullámok segítségével kapunk egységes
+adatrendszert.
 
 Nem csak adatgyűjtés, adat elemzés is.
 
@@ -571,7 +573,7 @@ irányra merőlegesen.
 
 Fontos természete egy teljes ciklus hossza = hullámhossz. Jele \lambda.
 
-** Hullámyegyenlet
+** Hullámegyenlet
 c = \nu \cdot \lambda
 
 - c :: a fény terjedési sebessége 3 * 10^8 (m/s) 300 e m/s Jelenleg a
@@ -878,7 +880,7 @@ Itt lefagytam.
 - Adatvesztés nélküli
   - sorkifejtő RLE
   - lánckódolás Chain tif gif
-  - Négeyfa quadtree tif
+  - Négyesfa quadtree tif
 - adatvesztéssel járó
 ** JPG
 Mindenki ismeri. Példa ábra. Minőséget a színeken látjuk.
@@ -2276,7 +2278,7 @@ Adatszolgáltató is lehet sokféle.
     felszínborítási réteg. Rég ki, minek interpretálta. Fontos a helyszín ismerete.
 
 *** HM Zrínyi Térképészeti és Komm. Szolg. Kh. Nonprofit Kft.
-   https://hmzrinyi.hu/erkepeszet
+   https://hmzrinyi.hu/terkepeszet
    - Nyitott égbolt, hozzéférkeztő
    - nagy múlt és sok felszínborítás
  
@@ -4621,14 +4623,14 @@ Alapfogalmak és minimum kérdésekből ZH. Jövő vagy jövő utáni? 6 és 13-
 
 ** Tételsor áttekintése
 Tételben a dőltel szedett a minimum kérdés.
- távérzékelés tágabb és zsőkebb
-- hullámegyenletek, feflektancia, hullámhossztartományok
-- digitális kép foglama és felbonásia helyigénye
+- távérzékelés tágabb és szűkebb
+- hullámegyenletek, reflektancia, hullámhossztartományok
+- digitális kép foglama és felbontása helyigénye
 - 0D letapogató Landsat
 - Sentinel MSI felbotása
 - SAR meghatározás
 - LiDAR meghatározás
-- Lechenr TK, HM Zrínyi forgalamzott adatk
+- LechNER TK, HM Zrínyi forgalamzott adatk
 - Vizuális interpretáció és méreelme
 - Geometriai és radiometrioai korrekciók
 - Vegetációs és egyéb indexek
